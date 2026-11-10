@@ -1,0 +1,519 @@
+{
+  "source_families": 658,
+  "selected_families": 606,
+  "excluded_families": 52,
+  "baseline_terms": 2214,
+  "refined_terms": 988,
+  "top_cpc": [
+    {
+      "CPC": "H04W",
+      "families": 262
+    },
+    {
+      "CPC": "H04L",
+      "families": 223
+    },
+    {
+      "CPC": "G06F",
+      "families": 124
+    },
+    {
+      "CPC": "H04B",
+      "families": 116
+    },
+    {
+      "CPC": "H04N",
+      "families": 103
+    },
+    {
+      "CPC": "G06N",
+      "families": 67
+    },
+    {
+      "CPC": "G06T",
+      "families": 66
+    },
+    {
+      "CPC": "G06V",
+      "families": 55
+    },
+    {
+      "CPC": "Y02D",
+      "families": 45
+    },
+    {
+      "CPC": "H04R",
+      "families": 30
+    }
+  ],
+  "axes": [
+    {
+      "PC": 1,
+      "positive": [
+        "user_equipment",
+        "wireless",
+        "communication",
+        "base_station",
+        "transmission",
+        "resource",
+        "channel",
+        "uplink",
+        "wireless communication",
+        "communications"
+      ],
+      "negative": [
+        "image",
+        "video",
+        "object",
+        "model",
+        "block",
+        "prediction",
+        "video_coding",
+        "motion",
+        "feature",
+        "input"
+      ]
+    },
+    {
+      "PC": 2,
+      "positive": [
+        "block",
+        "video",
+        "prediction",
+        "video_coding",
+        "picture",
+        "block video",
+        "mode",
+        "intra",
+        "coding",
+        "syntax"
+      ],
+      "negative": [
+        "image",
+        "object",
+        "feature",
+        "model",
+        "pose",
+        "sensor",
+        "input",
+        "signal",
+        "output",
+        "detection"
+      ]
+    },
+    {
+      "PC": 3,
+      "positive": [
+        "image",
+        "object",
+        "feature",
+        "pose",
+        "model",
+        "user_equipment",
+        "dimensional",
+        "sequence",
+        "frame",
+        "video"
+      ],
+      "negative": [
+        "transducer",
+        "signal",
+        "acoustic",
+        "piezoelectric",
+        "layer",
+        "coupled",
+        "microelectromechanical",
+        "touch_panel",
+        "drive",
+        "electrode"
+      ]
+    },
+    {
+      "PC": 4,
+      "positive": [
+        "network",
+        "audio",
+        "model",
+        "audio stream",
+        "stream",
+        "packet",
+        "connection",
+        "memory",
+        "interface",
+        "communication"
+      ],
+      "negative": [
+        "signal",
+        "image",
+        "reference",
+        "beam",
+        "reference signal",
+        "sensor",
+        "object",
+        "block",
+        "video",
+        "touch_panel"
+      ]
+    },
+    {
+      "PC": 5,
+      "positive": [
+        "audio",
+        "stream",
+        "audio stream",
+        "memory",
+        "processor",
+        "rendering",
+        "stream audio",
+        "memory store",
+        "channel",
+        "store"
+      ],
+      "negative": [
+        "network",
+        "model",
+        "layer",
+        "machine_learning",
+        "transducer",
+        "input",
+        "machine_learning model",
+        "beam",
+        "piezoelectric",
+        "user_equipment"
+      ]
+    },
+    {
+      "PC": 6,
+      "positive": [
+        "beam",
+        "transducer",
+        "piezoelectric",
+        "acoustic",
+        "layer",
+        "model",
+        "microelectromechanical",
+        "audio",
+        "user_equipment",
+        "acoustic transducer"
+      ],
+      "negative": [
+        "touch_panel",
+        "drive",
+        "electrode",
+        "drive electrode",
+        "sensor",
+        "capacitive",
+        "controller",
+        "capacitive touch_panel",
+        "sense",
+        "capacitance"
+      ]
+    },
+    {
+      "PC": 7,
+      "positive": [
+        "user_equipment",
+        "beam",
+        "sidelink",
+        "base_station",
+        "touch_panel",
+        "electrode",
+        "audio",
+        "drive",
+        "audio stream",
+        "sensor"
+      ],
+      "negative": [
+        "channel",
+        "reference",
+        "reference signal",
+        "signal",
+        "frame",
+        "network",
+        "transmission",
+        "physical",
+        "time",
+        "chip"
+      ]
+    },
+    {
+      "PC": 8,
+      "positive": [
+        "signal",
+        "network",
+        "reference",
+        "beam",
+        "reference signal",
+        "synchronization",
+        "user_equipment",
+        "tracking",
+        "measurement",
+        "wireless"
+      ],
+      "negative": [
+        "layer",
+        "uplink",
+        "control",
+        "resource",
+        "control channel",
+        "downlink",
+        "channel",
+        "frequency",
+        "model",
+        "piezoelectric"
+      ]
+    },
+    {
+      "PC": 9,
+      "positive": [
+        "model",
+        "reference",
+        "reference signal",
+        "signal",
+        "machine_learning",
+        "machine_learning model",
+        "channel",
+        "neural_network",
+        "generated",
+        "point_cloud"
+      ],
+      "negative": [
+        "image",
+        "transducer",
+        "camera",
+        "piezoelectric",
+        "frame",
+        "communication",
+        "digital",
+        "range",
+        "captured",
+        "link"
+      ]
+    },
+    {
+      "PC": 10,
+      "positive": [
+        "transmission",
+        "beam",
+        "uplink",
+        "uplink transmission",
+        "grant",
+        "packet",
+        "transmission power",
+        "sweep",
+        "base_station",
+        "beam sweep"
+      ],
+      "negative": [
+        "sidelink",
+        "communication",
+        "resource",
+        "wireless communication",
+        "sidelink communication",
+        "output",
+        "resource allocation",
+        "input",
+        "numerous",
+        "signal"
+      ]
+    }
+  ],
+  "variance": [
+    {
+      "PC": "PC1",
+      "eigenvalue": 0.02411198510917032,
+      "explained_percent": 2.4917440185615405,
+      "cumulative_percent": 2.4917440185615405,
+      "baseline_explained_percent": 2.2086545840974385,
+      "baseline_cumulative_percent": 2.2086545840974385,
+      "within_retained_10_percent": 19.6011826916641
+    },
+    {
+      "PC": "PC2",
+      "eigenvalue": 0.016671443046560656,
+      "explained_percent": 1.7228348600903023,
+      "cumulative_percent": 4.214578878651842,
+      "baseline_explained_percent": 1.4697140607899717,
+      "baseline_cumulative_percent": 3.67836864488741,
+      "within_retained_10_percent": 13.552596329574992
+    },
+    {
+      "PC": "PC3",
+      "eigenvalue": 0.01341822266210234,
+      "explained_percent": 1.3866455170173622,
+      "cumulative_percent": 5.601224395669205,
+      "baseline_explained_percent": 1.108607739327473,
+      "baseline_cumulative_percent": 4.786976384214883,
+      "within_retained_10_percent": 10.907979272816725
+    },
+    {
+      "PC": "PC4",
+      "eigenvalue": 0.01153411166630282,
+      "explained_percent": 1.1919405898687478,
+      "cumulative_percent": 6.793164985537953,
+      "baseline_explained_percent": 0.9470655804069285,
+      "baseline_cumulative_percent": 5.734041964621812,
+      "within_retained_10_percent": 9.376342467600137
+    },
+    {
+      "PC": "PC5",
+      "eigenvalue": 0.01065213634532719,
+      "explained_percent": 1.1007968403761312,
+      "cumulative_percent": 7.893961825914084,
+      "baseline_explained_percent": 0.8792414604924551,
+      "baseline_cumulative_percent": 6.6132834251142665,
+      "within_retained_10_percent": 8.659364611247387
+    },
+    {
+      "PC": "PC6",
+      "eigenvalue": 0.010164998121171219,
+      "explained_percent": 1.050455744412544,
+      "cumulative_percent": 8.944417570326628,
+      "baseline_explained_percent": 0.8720780635718677,
+      "baseline_cumulative_percent": 7.485361488686134,
+      "within_retained_10_percent": 8.263358837166907
+    },
+    {
+      "PC": "PC7",
+      "eigenvalue": 0.009604247672338867,
+      "explained_percent": 0.9925075261112516,
+      "cumulative_percent": 9.936925096437879,
+      "baseline_explained_percent": 0.8183588287345026,
+      "baseline_cumulative_percent": 8.303720317420638,
+      "within_retained_10_percent": 7.8075120065459265
+    },
+    {
+      "PC": "PC8",
+      "eigenvalue": 0.009430826038572546,
+      "explained_percent": 0.9745860519286031,
+      "cumulative_percent": 10.911511148366483,
+      "baseline_explained_percent": 0.7752540050749153,
+      "baseline_cumulative_percent": 9.078974322495553,
+      "within_retained_10_percent": 7.66653360469515
+    },
+    {
+      "PC": "PC9",
+      "eigenvalue": 0.009133679581534,
+      "explained_percent": 0.9438787956156023,
+      "cumulative_percent": 11.855389943982084,
+      "baseline_explained_percent": 0.7136795197617106,
+      "baseline_cumulative_percent": 9.792653842257264,
+      "within_retained_10_percent": 7.4249764718327
+    },
+    {
+      "PC": "PC10",
+      "eigenvalue": 0.00829125917398573,
+      "explained_percent": 0.856822669704831,
+      "cumulative_percent": 12.712212613686916,
+      "baseline_explained_percent": 0.6979167043936638,
+      "baseline_cumulative_percent": 10.490570546650927,
+      "within_retained_10_percent": 6.740153706855971
+    }
+  ],
+  "normalization_rules": [
+    [
+      "\\buser equipment(?:s)?(?:\\s*\\(ue\\))?\\b|\\bues?\\b",
+      "user_equipment"
+    ],
+    [
+      "\\bbase stations?\\b",
+      "base_station"
+    ],
+    [
+      "\\bneural networks?\\b",
+      "neural_network"
+    ],
+    [
+      "\\bmachine learning\\b",
+      "machine_learning"
+    ],
+    [
+      "\\bvideo cod(?:ing|er|ers)\\b",
+      "video_coding"
+    ],
+    [
+      "\\bpoint clouds?\\b",
+      "point_cloud"
+    ],
+    [
+      "\\btouch panels?\\b",
+      "touch_panel"
+    ],
+    [
+      "\\bmems\\b|\\bmicroelectromechanical systems?\\b",
+      "microelectromechanical"
+    ]
+  ],
+  "plural_mapping": {
+    "images": "image",
+    "objects": "object",
+    "models": "model",
+    "channels": "channel",
+    "signals": "signal",
+    "frames": "frame",
+    "blocks": "block",
+    "sensors": "sensor",
+    "electrodes": "electrode",
+    "networks": "network",
+    "transducers": "transducer",
+    "layers": "layer",
+    "circuits": "circuit",
+    "beams": "beam",
+    "streams": "stream",
+    "resources": "resource",
+    "antennas": "antenna",
+    "processors": "processor",
+    "memories": "memory",
+    "features": "feature",
+    "packets": "packet",
+    "frequencies": "frequency"
+  },
+  "additional_stopwords": [
+    "according",
+    "additional",
+    "alternatively",
+    "comprise",
+    "comprising",
+    "configuration",
+    "configured",
+    "current",
+    "data",
+    "different",
+    "enable",
+    "enabled",
+    "enabling",
+    "generally",
+    "include",
+    "information",
+    "least",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "operation",
+    "operations",
+    "particular",
+    "perform",
+    "performed",
+    "performing",
+    "process",
+    "processes",
+    "processing",
+    "receive",
+    "received",
+    "receiving",
+    "respective",
+    "respectively",
+    "set",
+    "sets",
+    "substantially",
+    "suitable",
+    "therein",
+    "thereof",
+    "thereto",
+    "transmit",
+    "transmitted",
+    "transmitting",
+    "value",
+    "values"
+  ]
+}
