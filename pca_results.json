@@ -1,0 +1,114 @@
+{
+  "n": 658,
+  "features": 2396,
+  "explained_variance_ratio": [
+    0.020894468132348652,
+    0.013821175438695455
+  ],
+  "axes": [
+    {
+      "pc": 1,
+      "positive": [
+        "ue",
+        "base station",
+        "station",
+        "base",
+        "wireless",
+        "communication",
+        "user equipment",
+        "equipment",
+        "user",
+        "equipment ue",
+        "configuration",
+        "transmission"
+      ],
+      "negative": [
+        "video",
+        "image",
+        "video data",
+        "coding",
+        "block",
+        "object",
+        "prediction",
+        "data",
+        "current",
+        "video coding",
+        "picture",
+        "model"
+      ]
+    },
+    {
+      "pc": 2,
+      "positive": [
+        "video",
+        "block",
+        "video data",
+        "coding",
+        "prediction",
+        "video coding",
+        "picture",
+        "data",
+        "current block",
+        "current",
+        "block video",
+        "intra"
+      ],
+      "negative": [
+        "image",
+        "object",
+        "sensor",
+        "touch",
+        "input",
+        "signal",
+        "output",
+        "panel",
+        "model",
+        "touch panel",
+        "transducer",
+        "drive"
+      ]
+    }
+  ],
+  "quadrants": {
+    "Q1 (+,+)": {
+      "n": 172,
+      "topics": {
+        "단말·기지국 및 빔 제어": 97,
+        "무선 채널·전송 제어": 75
+      }
+    },
+    "Q2 (-,+)": {
+      "n": 93,
+      "topics": {
+        "비디오 코딩": 68,
+        "오디오·공간음향": 10,
+        "무선 채널·전송 제어": 6,
+        "AI·머신러닝·관련 연산": 5,
+        "컴퓨터 비전·3차원 인식": 3,
+        "음향·MEMS·관련 회로": 1
+      }
+    },
+    "Q3 (-,-)": {
+      "n": 309,
+      "topics": {
+        "컴퓨터 비전·3차원 인식": 75,
+        "AI·머신러닝·관련 연산": 70,
+        "음향·MEMS·관련 회로": 68,
+        "무선 채널·전송 제어": 37,
+        "터치 센싱": 29,
+        "오디오·공간음향": 21,
+        "단말·기지국 및 빔 제어": 5,
+        "비디오 코딩": 4
+      }
+    },
+    "Q4 (+,-)": {
+      "n": 84,
+      "topics": {
+        "무선 채널·전송 제어": 58,
+        "단말·기지국 및 빔 제어": 20,
+        "AI·머신러닝·관련 연산": 5,
+        "음향·MEMS·관련 회로": 1
+      }
+    }
+  }
+}
