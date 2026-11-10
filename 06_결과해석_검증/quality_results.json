@@ -1,0 +1,506 @@
+{
+  "documents": 606,
+  "features": 988,
+  "threshold_components": {
+    "50": 87,
+    "70": 165,
+    "80": 223,
+    "90": 312
+  },
+  "neighbor_preservation": [
+    {
+      "retained_PCs": 2,
+      "cumulative_variance_percent": 4.214578878651855,
+      "mean_neighbor10_overlap_percent": 10.445544554455445,
+      "median_neighbor10_overlap_percent": 10.0
+    },
+    {
+      "retained_PCs": 10,
+      "cumulative_variance_percent": 12.712212613686926,
+      "mean_neighbor10_overlap_percent": 27.211221122112217,
+      "median_neighbor10_overlap_percent": 20.0
+    },
+    {
+      "retained_PCs": 50,
+      "cumulative_variance_percent": 36.02092805039911,
+      "mean_neighbor10_overlap_percent": 52.02970297029702,
+      "median_neighbor10_overlap_percent": 50.0
+    }
+  ],
+  "sensitivity": [
+    {
+      "min_df": 3,
+      "features": 2053,
+      "PC1_PC2_variance_percent": 3.2559710798032833,
+      "PC1_PC10_variance_percent": 10.06804029127547,
+      "PC10_subspace_overlap_vs_min_df5_percent": 98.15620631573594
+    },
+    {
+      "min_df": 5,
+      "features": 988,
+      "PC1_PC2_variance_percent": 4.214578878651855,
+      "PC1_PC10_variance_percent": 12.712212613686926,
+      "PC10_subspace_overlap_vs_min_df5_percent": 100.0
+    },
+    {
+      "min_df": 8,
+      "features": 528,
+      "PC1_PC2_variance_percent": 5.320976156913998,
+      "PC1_PC10_variance_percent": 15.680777213879926,
+      "PC10_subspace_overlap_vs_min_df5_percent": 94.71424414358826
+    }
+  ],
+  "multi_cpc_documents": 341,
+  "field_keywords": [
+    {
+      "CPC": "H04W",
+      "families": 262,
+      "rank": 1,
+      "term": "user_equipment",
+      "within_mean_tfidf": 0.08824813900286646,
+      "outside_mean_tfidf": 0.005551162312211026,
+      "difference": 0.08269697669065543
+    },
+    {
+      "CPC": "H04W",
+      "families": 262,
+      "rank": 2,
+      "term": "wireless",
+      "within_mean_tfidf": 0.06110699149914682,
+      "outside_mean_tfidf": 0.007195763938203285,
+      "difference": 0.053911227560943534
+    },
+    {
+      "CPC": "H04W",
+      "families": 262,
+      "rank": 3,
+      "term": "communication",
+      "within_mean_tfidf": 0.05874278518070239,
+      "outside_mean_tfidf": 0.007619037866350363,
+      "difference": 0.05112374731435203
+    },
+    {
+      "CPC": "H04W",
+      "families": 262,
+      "rank": 4,
+      "term": "base_station",
+      "within_mean_tfidf": 0.046694946281696445,
+      "outside_mean_tfidf": 0.0015620479397399556,
+      "difference": 0.04513289834195649
+    },
+    {
+      "CPC": "H04W",
+      "families": 262,
+      "rank": 5,
+      "term": "transmission",
+      "within_mean_tfidf": 0.0482252174501409,
+      "outside_mean_tfidf": 0.009432439991188127,
+      "difference": 0.03879277745895277
+    },
+    {
+      "CPC": "H04L",
+      "families": 223,
+      "rank": 1,
+      "term": "user_equipment",
+      "within_mean_tfidf": 0.07257580566601055,
+      "outside_mean_tfidf": 0.023097147756217358,
+      "difference": 0.04947865790979319
+    },
+    {
+      "CPC": "H04L",
+      "families": 223,
+      "rank": 2,
+      "term": "communication",
+      "within_mean_tfidf": 0.060965111556737145,
+      "outside_mean_tfidf": 0.011530910877849002,
+      "difference": 0.049434200678888145
+    },
+    {
+      "CPC": "H04L",
+      "families": 223,
+      "rank": 3,
+      "term": "transmission",
+      "within_mean_tfidf": 0.05406221217659287,
+      "outside_mean_tfidf": 0.009984054865601623,
+      "difference": 0.044078157310991246
+    },
+    {
+      "CPC": "H04L",
+      "families": 223,
+      "rank": 4,
+      "term": "wireless",
+      "within_mean_tfidf": 0.058235067981238134,
+      "outside_mean_tfidf": 0.014357583309927634,
+      "difference": 0.0438774846713105
+    },
+    {
+      "CPC": "H04L",
+      "families": 223,
+      "rank": 5,
+      "term": "channel",
+      "within_mean_tfidf": 0.04570311073177277,
+      "outside_mean_tfidf": 0.013925041476675566,
+      "difference": 0.031778069255097206
+    },
+    {
+      "CPC": "G06F",
+      "families": 124,
+      "rank": 1,
+      "term": "touch_panel",
+      "within_mean_tfidf": 0.03370262764607835,
+      "outside_mean_tfidf": 0.0,
+      "difference": 0.03370262764607835
+    },
+    {
+      "CPC": "G06F",
+      "families": 124,
+      "rank": 2,
+      "term": "memory",
+      "within_mean_tfidf": 0.03776089131748309,
+      "outside_mean_tfidf": 0.006482822722292154,
+      "difference": 0.03127806859519094
+    },
+    {
+      "CPC": "G06F",
+      "families": 124,
+      "rank": 3,
+      "term": "chip",
+      "within_mean_tfidf": 0.030141836772369403,
+      "outside_mean_tfidf": 0.0,
+      "difference": 0.030141836772369403
+    },
+    {
+      "CPC": "G06F",
+      "families": 124,
+      "rank": 4,
+      "term": "drive",
+      "within_mean_tfidf": 0.02975246792951716,
+      "outside_mean_tfidf": 0.0,
+      "difference": 0.02975246792951716
+    },
+    {
+      "CPC": "G06F",
+      "families": 124,
+      "rank": 5,
+      "term": "object",
+      "within_mean_tfidf": 0.04045716543931135,
+      "outside_mean_tfidf": 0.01178906835463081,
+      "difference": 0.028668097084680537
+    },
+    {
+      "CPC": "H04B",
+      "families": 116,
+      "rank": 1,
+      "term": "beam",
+      "within_mean_tfidf": 0.08005846069678071,
+      "outside_mean_tfidf": 0.003879799277728451,
+      "difference": 0.07617866141905226
+    },
+    {
+      "CPC": "H04B",
+      "families": 116,
+      "rank": 2,
+      "term": "user_equipment",
+      "within_mean_tfidf": 0.07797945126063878,
+      "outside_mean_tfidf": 0.03262244062840307,
+      "difference": 0.04535701063223571
+    },
+    {
+      "CPC": "H04B",
+      "families": 116,
+      "rank": 3,
+      "term": "wireless",
+      "within_mean_tfidf": 0.061960679656481846,
+      "outside_mean_tfidf": 0.023057011688503062,
+      "difference": 0.03890366796797878
+    },
+    {
+      "CPC": "H04B",
+      "families": 116,
+      "rank": 4,
+      "term": "transmission",
+      "within_mean_tfidf": 0.05682030817476522,
+      "outside_mean_tfidf": 0.018956348123740554,
+      "difference": 0.03786396005102467
+    },
+    {
+      "CPC": "H04B",
+      "families": 116,
+      "rank": 5,
+      "term": "signal",
+      "within_mean_tfidf": 0.06252718699918834,
+      "outside_mean_tfidf": 0.026832508303373886,
+      "difference": 0.035694678695814455
+    },
+    {
+      "CPC": "H04N",
+      "families": 103,
+      "rank": 1,
+      "term": "video",
+      "within_mean_tfidf": 0.11358666047582928,
+      "outside_mean_tfidf": 0.0029423199550953506,
+      "difference": 0.11064434052073394
+    },
+    {
+      "CPC": "H04N",
+      "families": 103,
+      "rank": 2,
+      "term": "block",
+      "within_mean_tfidf": 0.09540191732598174,
+      "outside_mean_tfidf": 0.008267243979203663,
+      "difference": 0.08713467334677807
+    },
+    {
+      "CPC": "H04N",
+      "families": 103,
+      "rank": 3,
+      "term": "video_coding",
+      "within_mean_tfidf": 0.06766691158596214,
+      "outside_mean_tfidf": 0.0,
+      "difference": 0.06766691158596214
+    },
+    {
+      "CPC": "H04N",
+      "families": 103,
+      "rank": 4,
+      "term": "image",
+      "within_mean_tfidf": 0.08090119442080475,
+      "outside_mean_tfidf": 0.01727892568767182,
+      "difference": 0.06362226873313293
+    },
+    {
+      "CPC": "H04N",
+      "families": 103,
+      "rank": 5,
+      "term": "prediction",
+      "within_mean_tfidf": 0.06050807355916356,
+      "outside_mean_tfidf": 0.0006187824724159911,
+      "difference": 0.059889291086747565
+    },
+    {
+      "CPC": "G06N",
+      "families": 67,
+      "rank": 1,
+      "term": "model",
+      "within_mean_tfidf": 0.10009753864373387,
+      "outside_mean_tfidf": 0.005341270255568274,
+      "difference": 0.0947562683881656
+    },
+    {
+      "CPC": "G06N",
+      "families": 67,
+      "rank": 2,
+      "term": "neural_network",
+      "within_mean_tfidf": 0.06811947170763703,
+      "outside_mean_tfidf": 0.0012639751432806606,
+      "difference": 0.06685549656435637
+    },
+    {
+      "CPC": "G06N",
+      "families": 67,
+      "rank": 3,
+      "term": "machine_learning",
+      "within_mean_tfidf": 0.06589217823256026,
+      "outside_mean_tfidf": 0.0005674362058117912,
+      "difference": 0.06532474202674847
+    },
+    {
+      "CPC": "G06N",
+      "families": 67,
+      "rank": 4,
+      "term": "feature",
+      "within_mean_tfidf": 0.05635655568515208,
+      "outside_mean_tfidf": 0.008174657047878717,
+      "difference": 0.04818189863727336
+    },
+    {
+      "CPC": "G06N",
+      "families": 67,
+      "rank": 5,
+      "term": "generated",
+      "within_mean_tfidf": 0.04988230868443535,
+      "outside_mean_tfidf": 0.004363260249373279,
+      "difference": 0.04551904843506207
+    },
+    {
+      "CPC": "G06T",
+      "families": 66,
+      "rank": 1,
+      "term": "image",
+      "within_mean_tfidf": 0.15731444630265545,
+      "outside_mean_tfidf": 0.012298831833826945,
+      "difference": 0.14501561446882852
+    },
+    {
+      "CPC": "G06T",
+      "families": 66,
+      "rank": 2,
+      "term": "object",
+      "within_mean_tfidf": 0.10229449539951345,
+      "outside_mean_tfidf": 0.007310338453775502,
+      "difference": 0.09498415694573795
+    },
+    {
+      "CPC": "G06T",
+      "families": 66,
+      "rank": 3,
+      "term": "pose",
+      "within_mean_tfidf": 0.05338388299089755,
+      "outside_mean_tfidf": 0.0009961977803191284,
+      "difference": 0.052387685210578426
+    },
+    {
+      "CPC": "G06T",
+      "families": 66,
+      "rank": 4,
+      "term": "frame",
+      "within_mean_tfidf": 0.0622324934097562,
+      "outside_mean_tfidf": 0.010677266890716781,
+      "difference": 0.05155522651903942
+    },
+    {
+      "CPC": "G06T",
+      "families": 66,
+      "rank": 5,
+      "term": "dimensional",
+      "within_mean_tfidf": 0.043803716741818495,
+      "outside_mean_tfidf": 0.0014260169049623997,
+      "difference": 0.042377699836856096
+    },
+    {
+      "CPC": "G06V",
+      "families": 55,
+      "rank": 1,
+      "term": "image",
+      "within_mean_tfidf": 0.14148697729908896,
+      "outside_mean_tfidf": 0.01677375479998534,
+      "difference": 0.12471322249910362
+    },
+    {
+      "CPC": "G06V",
+      "families": 55,
+      "rank": 2,
+      "term": "object",
+      "within_mean_tfidf": 0.12348528625480329,
+      "outside_mean_tfidf": 0.007091340684922826,
+      "difference": 0.11639394556988046
+    },
+    {
+      "CPC": "G06V",
+      "families": 55,
+      "rank": 3,
+      "term": "feature",
+      "within_mean_tfidf": 0.07327612444509474,
+      "outside_mean_tfidf": 0.007535104419658085,
+      "difference": 0.06574102002543665
+    },
+    {
+      "CPC": "G06V",
+      "families": 55,
+      "rank": 4,
+      "term": "model",
+      "within_mean_tfidf": 0.05889253541077054,
+      "outside_mean_tfidf": 0.011517949744626296,
+      "difference": 0.04737458566614424
+    },
+    {
+      "CPC": "G06V",
+      "families": 55,
+      "rank": 5,
+      "term": "pose",
+      "within_mean_tfidf": 0.04768986857196747,
+      "outside_mean_tfidf": 0.0026104179806050024,
+      "difference": 0.045079450591362466
+    },
+    {
+      "CPC": "Y02D",
+      "families": 45,
+      "rank": 1,
+      "term": "power",
+      "within_mean_tfidf": 0.0734732384732161,
+      "outside_mean_tfidf": 0.009805065573947627,
+      "difference": 0.06366817289926847
+    },
+    {
+      "CPC": "Y02D",
+      "families": 45,
+      "rank": 2,
+      "term": "drx",
+      "within_mean_tfidf": 0.04645314720737311,
+      "outside_mean_tfidf": 0.0008360222559906281,
+      "difference": 0.04561712495138248
+    },
+    {
+      "CPC": "Y02D",
+      "families": 45,
+      "rank": 3,
+      "term": "wake",
+      "within_mean_tfidf": 0.04147454113728523,
+      "outside_mean_tfidf": 0.00033441566917683435,
+      "difference": 0.04114012546810839
+    },
+    {
+      "CPC": "Y02D",
+      "families": 45,
+      "rank": 4,
+      "term": "low",
+      "within_mean_tfidf": 0.04005487495259672,
+      "outside_mean_tfidf": 0.005687250591180928,
+      "difference": 0.03436762436141579
+    },
+    {
+      "CPC": "Y02D",
+      "families": 45,
+      "rank": 5,
+      "term": "base_station",
+      "within_mean_tfidf": 0.05127750824540407,
+      "outside_mean_tfidf": 0.018652286178309854,
+      "difference": 0.032625222067094214
+    },
+    {
+      "CPC": "H04R",
+      "families": 30,
+      "rank": 1,
+      "term": "transducer",
+      "within_mean_tfidf": 0.18739739871368688,
+      "outside_mean_tfidf": 0.0007048419187610927,
+      "difference": 0.1866925567949258
+    },
+    {
+      "CPC": "H04R",
+      "families": 30,
+      "rank": 2,
+      "term": "acoustic",
+      "within_mean_tfidf": 0.146633918022828,
+      "outside_mean_tfidf": 0.000431519992229637,
+      "difference": 0.14620239803059837
+    },
+    {
+      "CPC": "H04R",
+      "families": 30,
+      "rank": 3,
+      "term": "piezoelectric",
+      "within_mean_tfidf": 0.13777070244767253,
+      "outside_mean_tfidf": 0.0,
+      "difference": 0.13777070244767253
+    },
+    {
+      "CPC": "H04R",
+      "families": 30,
+      "rank": 4,
+      "term": "microelectromechanical",
+      "within_mean_tfidf": 0.10057042823395311,
+      "outside_mean_tfidf": 0.0,
+      "difference": 0.10057042823395311
+    },
+    {
+      "CPC": "H04R",
+      "families": 30,
+      "rank": 5,
+      "term": "layer",
+      "within_mean_tfidf": 0.08442260464499904,
+      "outside_mean_tfidf": 0.010692233611853496,
+      "difference": 0.07373037103314554
+    }
+  ]
+}
