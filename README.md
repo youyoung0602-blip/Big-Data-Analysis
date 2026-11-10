@@ -4,7 +4,7 @@
 
 # 분석 그래프
 
-![퀄컴 특허의 평균 TF-IDF 상위 용어와 NMF 기술 주제별 패밀리 수](C:/Users/yenni/Downloads/qualcomm_analysis/technology_analysis.png)
+![퀄컴 특허의 평균 TF-IDF 상위 용어와 NMF 기술 주제별 패밀리 수](./technology_analysis.png)
 
 왼쪽은 평균 TF-IDF 상위 20개 용어, 오른쪽은 NMF 주제별 대표 패밀리 수다. 기술 분야별 해석은 아래 표를 참고한다.
 
