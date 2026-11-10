@@ -1,3 +1,7 @@
+# 검색식
+
+applicant.name:("Qualcomm" OR "Qualcomm Incorporated" OR "Qualcomm Technologies" OR "Qualcomm Technologies Inc") AND year_published:[2015 TO 2025]
+
 # 퀄컴 주요 기술 분야 분석
 
 이 표본에서는 무선통신이 가장 큰 축이며, AI·컴퓨터 비전·비디오 코딩이 그다음의 주요 기술군으로 나타난다. 센서·음향·터치 기술도 별도 군집을 형성한다. 이는 제출된 특허 표본에 관한 결과이며 퀄컴 전체의 기술별 투자액이나 매출 구성을 뜻하지 않는다.
