@@ -1,0 +1,141 @@
+{
+  "documents": 495,
+  "scope_choice": "user_selected_sidelink_resource_allocation_drx_relay",
+  "selected_candidate": "A6",
+  "recommended_research_focus": "Sidelink DRX and resource allocation interaction, with relay as a related subtopic",
+  "candidate_counts": [
+    {
+      "candidate": "A0",
+      "scope": "사이드링크 전반",
+      "sample_matches": 154,
+      "sample_not_matched": 341,
+      "sample_match_percent": 31.11111111111111,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "A1",
+      "scope": "사이드링크 + DRX",
+      "sample_matches": 42,
+      "sample_not_matched": 453,
+      "sample_match_percent": 8.484848484848486,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "A2",
+      "scope": "사이드링크 + 자원·스케줄링",
+      "sample_matches": 79,
+      "sample_not_matched": 416,
+      "sample_match_percent": 15.95959595959596,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "A3",
+      "scope": "사이드링크 + DRX + 자원",
+      "sample_matches": 10,
+      "sample_not_matched": 485,
+      "sample_match_percent": 2.0202020202020203,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "A4",
+      "scope": "A3 + NR/5G 명시",
+      "sample_matches": 0,
+      "sample_not_matched": 495,
+      "sample_match_percent": 0.0,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "A5",
+      "scope": "사이드링크 + (DRX 또는 자원)",
+      "sample_matches": 111,
+      "sample_not_matched": 384,
+      "sample_match_percent": 22.424242424242426,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "A6",
+      "scope": "사이드링크 + (DRX·자원·중계 중 하나)",
+      "sample_matches": 116,
+      "sample_not_matched": 379,
+      "sample_match_percent": 23.434343434343436,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "B",
+      "scope": "빔 관리·선택·추적",
+      "sample_matches": 30,
+      "sample_not_matched": 465,
+      "sample_match_percent": 6.0606060606060606,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "C0",
+      "scope": "랜덤 액세스·RACH",
+      "sample_matches": 157,
+      "sample_not_matched": 338,
+      "sample_match_percent": 31.717171717171716,
+      "lens_family_count": "not_measured"
+    },
+    {
+      "candidate": "C1",
+      "scope": "RACH + 2단계 접속",
+      "sample_matches": 23,
+      "sample_not_matched": 472,
+      "sample_match_percent": 4.646464646464646,
+      "lens_family_count": "not_measured"
+    }
+  ],
+  "cpc_evidence": [
+    {
+      "CPC_prefix": "H04W76/28",
+      "description": "DRX·DTX",
+      "representative_document_matches": 68,
+      "family_member_union_matches": 68
+    },
+    {
+      "CPC_prefix": "H04W52/02",
+      "description": "절전",
+      "representative_document_matches": 58,
+      "family_member_union_matches": 58
+    },
+    {
+      "CPC_prefix": "H04W72/40",
+      "description": "D2D·사이드링크 자원 관리",
+      "representative_document_matches": 22,
+      "family_member_union_matches": 22
+    },
+    {
+      "CPC_prefix": "H04W72/25",
+      "description": "사이드링크 자원 관리 신호",
+      "representative_document_matches": 29,
+      "family_member_union_matches": 29
+    },
+    {
+      "CPC_prefix": "H04W88/04",
+      "description": "단말 중계",
+      "representative_document_matches": 41,
+      "family_member_union_matches": 41
+    },
+    {
+      "CPC_prefix": "H04W16/28",
+      "description": "빔 조향",
+      "representative_document_matches": 26,
+      "family_member_union_matches": 26
+    },
+    {
+      "CPC_prefix": "H04B7/0695",
+      "description": "빔 선택",
+      "representative_document_matches": 30,
+      "family_member_union_matches": 30
+    },
+    {
+      "CPC_prefix": "H04W74/08",
+      "description": "비예약·경쟁 접속",
+      "representative_document_matches": 188,
+      "family_member_union_matches": 188
+    }
+  ],
+  "keywords_proxy_only": true,
+  "lens_counts_not_queried": true,
+  "documents_deleted": 0
+}

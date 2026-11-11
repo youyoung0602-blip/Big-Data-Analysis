@@ -1,0 +1,11 @@
+﻿candidate,scope,sample_matches,sample_not_matched,sample_match_percent,lens_family_count
+A0,사이드링크 전반,154,341,31.11111111111111,not_measured
+A1,사이드링크 + DRX,42,453,8.484848484848486,not_measured
+A2,사이드링크 + 자원·스케줄링,79,416,15.95959595959596,not_measured
+A3,사이드링크 + DRX + 자원,10,485,2.0202020202020203,not_measured
+A4,A3 + NR/5G 명시,0,495,0.0,not_measured
+A5,사이드링크 + (DRX 또는 자원),111,384,22.424242424242426,not_measured
+A6,사이드링크 + (DRX·자원·중계 중 하나),116,379,23.434343434343436,not_measured
+B,빔 관리·선택·추적,30,465,6.0606060606060606,not_measured
+C0,랜덤 액세스·RACH,157,338,31.717171717171716,not_measured
+C1,RACH + 2단계 접속,23,472,4.646464646464646,not_measured
