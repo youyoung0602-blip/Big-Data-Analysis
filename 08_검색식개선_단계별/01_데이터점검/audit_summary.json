@@ -1,0 +1,16 @@
+{
+  "input_filename": "qualcom1.csv",
+  "sha256": "6934e6cedf947ab5a9b530b5a5276232a4fdea6ff0473849863e122699bbe506",
+  "input_documents": 1000,
+  "family_groups": 495,
+  "repeated_family_documents": 505,
+  "missing_abstracts": 0,
+  "h04w_documents": 1000,
+  "representative_rule": "Longest available abstract, Lens ID ascending for ties; not an assessment of patent value.",
+  "lens_screenshot_counts_not_requeried": {
+    "records": 41476,
+    "simple_families": 21900,
+    "jurisdiction_filter": "United States"
+  },
+  "analysis_scope": "Exploratory subset only. No claim of representativeness for full Lens results."
+}
