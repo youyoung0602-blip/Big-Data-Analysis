@@ -1,0 +1,40 @@
+{
+  "documents": 1000,
+  "features": 6945,
+  "review_candidates": 102,
+  "retain_priority": 898,
+  "low_relevance_candidates": 100,
+  "short_text_candidates": 2,
+  "threshold": 0.012142002931395795,
+  "score_min": 0.0,
+  "score_median": 0.04728258506387692,
+  "score_max": 0.20610690915575727,
+  "reference_text": "wireless communication radio cellular LTE NR 5G WLAN wifi bluetooth\nuser_equipment base_station uplink downlink sidelink channel radio resource\nallocation scheduling transmission reception antenna beamforming beam MIMO OFDM\nrandom access handover synchronization reference signal channel estimation\npower control spectrum frequency carrier modulation coding network protocol\npacket mesh relay DRX HARQ CQI access point\nsubframe frame slot paging RACH PRACH PDCCH PUCCH PUSCH RRC MAC\ncontrol information carrier aggregation bandwidth beam sweep random access\nchannel state information radio link cell selection reselection multicast broadcast",
+  "threshold_sensitivity": [
+    {
+      "bottom_percent_setting": 5,
+      "cosine_threshold": 0.006377260096656468,
+      "review_candidates": 52,
+      "retain_priority": 948
+    },
+    {
+      "bottom_percent_setting": 10,
+      "cosine_threshold": 0.012142002931395795,
+      "review_candidates": 102,
+      "retain_priority": 898
+    },
+    {
+      "bottom_percent_setting": 15,
+      "cosine_threshold": 0.01828912910037033,
+      "review_candidates": 152,
+      "retain_priority": 848
+    },
+    {
+      "bottom_percent_setting": 20,
+      "cosine_threshold": 0.022499223045116142,
+      "review_candidates": 202,
+      "retain_priority": 798
+    }
+  ],
+  "note": "10% is an exploratory review budget, not a validated accuracy threshold."
+}
