@@ -1,0 +1,219 @@
+{
+  "input_documents": 495,
+  "output_documents": 495,
+  "source_sha256": "c0e420f7c92cdbc969bab286ba74dd7278573c27d163502d7d09fcd361762418",
+  "raw_token_occurrences": 62102,
+  "clean_token_occurrences": 32187,
+  "baseline_tfidf_features": 6178,
+  "clean_tfidf_features": 3998,
+  "baseline_nonzero": 64109,
+  "clean_nonzero": 28908,
+  "empty_documents": 0,
+  "minimum_document_features": 22,
+  "median_document_features": 57.0,
+  "sidelink_title_documents": 135,
+  "term_preservation_checks": [
+    {
+      "term": "user_equipment",
+      "documents_after_normalization": 488,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "base_station",
+      "documents_after_normalization": 324,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "sidelink",
+      "documents_after_normalization": 154,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "uplink",
+      "documents_after_normalization": 253,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "downlink",
+      "documents_after_normalization": 215,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "beam",
+      "documents_after_normalization": 66,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "reference_signal",
+      "documents_after_normalization": 58,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "channel_state_information",
+      "documents_after_normalization": 9,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "drx",
+      "documents_after_normalization": 58,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "harq",
+      "documents_after_normalization": 6,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "nr",
+      "documents_after_normalization": 68,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "lte",
+      "documents_after_normalization": 33,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "5g",
+      "documents_after_normalization": 28,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "4g",
+      "documents_after_normalization": 7,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "3gpp",
+      "documents_after_normalization": 0,
+      "in_tfidf_vocabulary": false,
+      "reason": "not_observed"
+    },
+    {
+      "term": "mimo",
+      "documents_after_normalization": 9,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "ofdm",
+      "documents_after_normalization": 3,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "pdcch",
+      "documents_after_normalization": 18,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "pucch",
+      "documents_after_normalization": 11,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "pusch",
+      "documents_after_normalization": 14,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "prach",
+      "documents_after_normalization": 16,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "rach",
+      "documents_after_normalization": 62,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "wifi",
+      "documents_after_normalization": 12,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "bluetooth",
+      "documents_after_normalization": 3,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "positioning",
+      "documents_after_normalization": 19,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "security",
+      "documents_after_normalization": 0,
+      "in_tfidf_vocabulary": false,
+      "reason": "not_observed"
+    },
+    {
+      "term": "machine_learning",
+      "documents_after_normalization": 2,
+      "in_tfidf_vocabulary": true,
+      "reason": "preserved"
+    },
+    {
+      "term": "neural_network",
+      "documents_after_normalization": 0,
+      "in_tfidf_vocabulary": false,
+      "reason": "not_observed"
+    }
+  ],
+  "matrix_checks": "finite, nonnegative, nonempty rows, row L2 norm=1, no configured stopwords in vocabulary",
+  "word_settings": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 1.0,
+    "sublinear_tf": true,
+    "norm": "l2",
+    "lowercase": false,
+    "token_pattern": "(?u)\\b[a-z0-9][a-z0-9_]+\\b"
+  },
+  "excluded_documents": 0,
+  "unobserved_or_df_filtered_terms": [
+    {
+      "term": "3gpp",
+      "documents_after_normalization": 0,
+      "in_tfidf_vocabulary": false,
+      "reason": "not_observed"
+    },
+    {
+      "term": "security",
+      "documents_after_normalization": 0,
+      "in_tfidf_vocabulary": false,
+      "reason": "not_observed"
+    },
+    {
+      "term": "neural_network",
+      "documents_after_normalization": 0,
+      "in_tfidf_vocabulary": false,
+      "reason": "not_observed"
+    }
+  ]
+}

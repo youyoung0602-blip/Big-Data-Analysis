@@ -1,0 +1,12 @@
+﻿rule,normalized_token,matched_occurrences
+UE / user equipment,user_equipment,2513
+base station,base_station,866
+CSI / channel state information,channel_state_information,66
+DRX / discontinuous reception,drx,306
+HARQ / hybrid automatic repeat request,harq,13
+NR / new radio,nr,151
+LTE / long term evolution,lte,87
+Wi-Fi / WiFi,wifi,31
+reference signal,reference_signal,131
+machine learning,machine_learning,4
+neural network,neural_network,0
