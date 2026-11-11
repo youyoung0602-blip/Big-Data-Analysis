@@ -4,7 +4,7 @@
 
 **문헌 495개를 모두 유지하고, 제목·초록의 용어 표현만 정리했다.** 설정한 불용어 제거, 기술어 보존, TF-IDF 행렬의 수치 검증을 통과했다. 토픽의 품질이나 최종 검색식의 정확도를 검증한 단계는 아니다.
 
-최종 TF-IDF 입력은 **495개 문헌 × 3,998개 단어·구문 특성**이다. 다음 3단계 토픽모델링에 사용할 수 있도록 희소행렬과 어휘 순서를 로컬에 저장했다.
+최종 TF-IDF 입력은 **495개 문헌 × 3,955개 단어·구문 특성**이다. 다음 3단계 토픽모델링에 사용할 수 있도록 희소행렬과 어휘 순서를 로컬에 저장했다.
 
 ![용어 정제와 TF-IDF 검증](./step02_validation.png)
 
@@ -15,9 +15,9 @@
 | 항목 | 정제 전 | 정제 후 |
 |---|---:|---:|
 | 문헌 수 | 495 | 495 |
-| 단어 토큰 등장 횟수 | 62,102 | 32,187 |
-| TF-IDF 단어·2단어 구문 특성 수 | 6,178 | 3,998 |
-| 행렬의 0이 아닌 값 수 | 64,109 | 28,908 |
+| 단어 토큰 등장 횟수 | 62,102 | 31,874 |
+| TF-IDF 단어·2단어 구문 특성 수 | 6,178 | 3,955 |
+| 행렬의 0이 아닌 값 수 | 64,109 | 28,354 |
 
 정제 전후 모두 min_df=2, max_df=1.0, 단어·2단어 구문, sublinear TF, L2 정규화를 적용했다. 전처리만 비교한 것이며 용어 수 감소를 기술 정보 손실 없음 또는 정확도 향상으로 해석하지 않는다. 토큰 감소에는 복합어 통합 효과도 포함된다.
 
@@ -29,17 +29,17 @@
 
 | 제거 용어 | 등장 횟수 | 구분 |
 |---|---:|---|
-| the | 4873 | english_stopword |
+| the | 4874 | english_stopword |
 | of | 1688 | english_stopword |
-| for | 1487 | english_stopword |
-| and | 1447 | english_stopword |
-| may | 1443 | english_stopword |
-| to | 1432 | english_stopword |
-| in | 982 | english_stopword |
+| for | 1493 | english_stopword |
+| and | 1448 | english_stopword |
+| may | 1447 | english_stopword |
+| to | 1435 | english_stopword |
+| in | 987 | english_stopword |
 | or | 854 | english_stopword |
-| on | 737 | english_stopword |
+| on | 740 | english_stopword |
 | first | 655 | patent_boilerplate |
-| with | 638 | english_stopword |
+| with | 640 | english_stopword |
 | an | 585 | english_stopword |
 
 ### 표기 통합
@@ -66,6 +66,12 @@
 
 그래서 **최종 max_df를 1.0으로 바꾸어 고빈도 자동 제거를 해제**했다. 명시적 불용어 목록은 유지하고, 빈도에 따른 가중치 조정은 IDF가 담당하도록 했다. 정제 전 비교 행렬도 같은 1.0 기준으로 다시 계산했다. 이는 비교 기준의 일관성과 도메인 용어 보존을 위한 수정이며 토픽 품질이 무조건 좋아진다는 뜻은 아니다.
 
+3단계의 대표 문헌 검토에서 약어 치환이 뒤 공백까지 소비해 `DRX for`를 `drxfor`, `new radio layer`를 `nrlayer`처럼 붙이는 오류를 추가로 발견했다. 괄호 안 약어가 실제로 있을 때만 해당 공백을 소비하도록 정규식을 고쳤고, TF-IDF와 토픽모델을 다시 계산했다. 이 보고서의 수치는 공백 경계 수정 후 결과다.
+
+`user equipment performance`, `user equipment (UE) performance`, `discontinuous reception for sidelink`, `discontinuous reception (DRX) for sidelink`, `new radio layer`, `channel state information report`, `long term evolution network`, `hybrid automatic repeat request procedure`의 8개 사례가 뒤 단어와 분리된 채 변환되는지 회귀 검증을 추가했다. 이전의 수치·어휘 보존 점검만으로는 이 결함을 잡지 못했다는 한계도 남긴다.
+
+추가로 토픽 수 10개인 탐색 실행에서 `various generally`, `generally relate`, `numerous`가 한 토픽의 상위 용어를 차지했다. 기술 차이보다 작성 문체를 나타내는 토픽이므로 various·generally·relate·numerous를 명시적 상투어 목록에 추가하고 2·3단계를 다시 계산했다. 문헌을 노이즈로 제거한 것이 아니라 텍스트 표현을 보완한 것이다.
+
 5G·4G처럼 숫자로 시작하는 기술어도 남도록 숫자와 영문이 섞인 토큰을 허용했다. 숫자만으로 이뤄진 토큰과 한 글자 토큰은 제외했다. 3GPP처럼 점검표에 있지만 이번 문헌에서 관측되지 않은 단어는 ‘제거됨’과 구분했다.
 
 ## 4. 핵심 기술어 보존 점검
@@ -79,10 +85,10 @@
 | downlink | 215 | 예 | preserved |
 | beam | 66 | 예 | preserved |
 | reference_signal | 58 | 예 | preserved |
-| channel_state_information | 9 | 예 | preserved |
-| drx | 58 | 예 | preserved |
+| channel_state_information | 12 | 예 | preserved |
+| drx | 59 | 예 | preserved |
 | harq | 6 | 예 | preserved |
-| nr | 68 | 예 | preserved |
+| nr | 72 | 예 | preserved |
 | lte | 33 | 예 | preserved |
 | 5g | 28 | 예 | preserved |
 | 4g | 7 | 예 | preserved |
@@ -111,26 +117,26 @@ min_df=2 때문에 단 한 문헌에만 나오는 기술어는 빠질 수 있다
 
 | 순위 | 용어 | 평균 TF-IDF | 등장 문헌 수 |
 |---|---|---:|---:|
-| 1 | user_equipment | 0.05678 | 488 |
-| 2 | sidelink | 0.03974 | 154 |
-| 3 | uplink | 0.03885 | 253 |
-| 4 | base_station | 0.03838 | 324 |
-| 5 | access | 0.03829 | 228 |
-| 6 | random | 0.03528 | 158 |
-| 7 | random access | 0.03519 | 158 |
-| 8 | communication | 0.03419 | 400 |
-| 9 | transmission | 0.03205 | 230 |
-| 10 | downlink | 0.03172 | 215 |
-| 11 | message | 0.03161 | 186 |
-| 12 | resource | 0.03140 | 198 |
-| 13 | channel | 0.03007 | 214 |
-| 14 | transmit | 0.02728 | 255 |
-| 15 | wireless | 0.02589 | 366 |
-| 16 | information | 0.02527 | 170 |
-| 17 | configuration | 0.02457 | 140 |
-| 18 | control | 0.02447 | 165 |
-| 19 | wireless communication | 0.02440 | 345 |
-| 20 | receive | 0.02279 | 216 |
+| 1 | user_equipment | 0.05749 | 488 |
+| 2 | sidelink | 0.03994 | 154 |
+| 3 | uplink | 0.03902 | 253 |
+| 4 | access | 0.03844 | 228 |
+| 5 | base_station | 0.03842 | 324 |
+| 6 | random | 0.03543 | 158 |
+| 7 | random access | 0.03535 | 158 |
+| 8 | communication | 0.03433 | 400 |
+| 9 | transmission | 0.03217 | 230 |
+| 10 | downlink | 0.03185 | 215 |
+| 11 | message | 0.03169 | 186 |
+| 12 | resource | 0.03154 | 198 |
+| 13 | channel | 0.03016 | 214 |
+| 14 | transmit | 0.02736 | 255 |
+| 15 | wireless | 0.02600 | 366 |
+| 16 | information | 0.02538 | 170 |
+| 17 | configuration | 0.02485 | 141 |
+| 18 | control | 0.02450 | 165 |
+| 19 | wireless communication | 0.02450 | 345 |
+| 20 | receive | 0.02286 | 216 |
 
 제목에 sidelink가 있는 대표 문헌은 135개다. 이 수치는 특정 기술에 표본이 집중될 수 있음을 보여줄 뿐 전체 검색 결과의 sidelink 비중을 뜻하지 않는다. 토픽모델링 결과를 수정 검색식에 쓰기 전 이 표본 범위의 한계를 함께 고려한다.
 
@@ -142,8 +148,8 @@ min_df=2 때문에 단 한 문헌에만 나오는 기술어는 빠질 수 있다
 | 문헌 수 유지 | 495 → 495, 제외 0건 |
 | NaN·무한대·음수 | 없음 |
 | 정제 후 빈 문헌 | 0건 |
-| 문헌별 유효 특성 수 최솟값 | 22개 |
-| 문헌별 유효 특성 수 중앙값 | 57개 |
+| 문헌별 유효 특성 수 최솟값 | 23개 |
+| 문헌별 유효 특성 수 중앙값 | 56개 |
 | 문헌 벡터 L2 길이 | 모두 1, 수치 오차 허용 1e−10 |
 | 지정 불용어의 어휘 잔류 | 없음 |
 | 주요 보존 대상어 | sidelink·uplink·downlink·user_equipment·base_station·DRX·NR 모두 포함 |

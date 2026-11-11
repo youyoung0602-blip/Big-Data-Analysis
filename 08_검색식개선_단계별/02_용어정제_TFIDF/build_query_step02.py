@@ -13,19 +13,19 @@ BASE=Path.cwd();LOCAL=BASE/'query_refinement_steps';LOCAL.mkdir(exist_ok=True)
 PUBLIC=BASE/'Big-Data-Analysis'/'08_검색식개선_단계별'/'02_용어정제_TFIDF';PUBLIC.mkdir(parents=True,exist_ok=True)
 source=LOCAL/'step01_family_representatives_LOCAL_ONLY.csv'
 d=pd.read_csv(source).fillna('');text=d.Title+' '+d.Abstract
-patent_stop=set('method methods apparatus system systems device devices embodiment embodiments invention present disclosure disclosed provide provides provided providing comprise comprises comprising include includes including plurality thereof therein thereto wherein said respective respectively corresponding according example examples aspect aspects technique techniques described relates relating configured configure determining determine determined obtain obtained obtaining perform performed performing certain first second third based'.split())
+patent_stop=set('method methods apparatus system systems device devices embodiment embodiments invention present disclosure disclosed provide provides provided providing comprise comprises comprising include includes including plurality thereof therein thereto wherein said respective respectively corresponding according example examples aspect aspects technique techniques described relates relating relate configured configure determining determine determined obtain obtained obtaining perform performed performing certain first second third based various generally numerous'.split())
 # Preserve relation/negation words; avoid interpreting their removal as semantic cleaning.
 protected={'no','not','without','before','after','above','below','between','during','within'}
 english_stop=set(ENGLISH_STOP_WORDS)-protected
 stop=english_stop|patent_stop
 rules=[
- ('UE / user equipment',r'\buser equipments?\s*(?:\(\s*ues?\s*\))?|\bues?\b','user_equipment'),
+ ('UE / user equipment',r'\buser equipments?(?:\s*\(\s*ues?\s*\))?|\bues?\b','user_equipment'),
  ('base station',r'\bbase stations?\b','base_station'),
- ('CSI / channel state information',r'\bchannel state information\s*(?:\(\s*csi\s*\))?|\bcsi\b','channel_state_information'),
- ('DRX / discontinuous reception',r'\bdiscontinuous reception\s*(?:\(\s*drx\s*\))?|\bdrx\b','drx'),
- ('HARQ / hybrid automatic repeat request',r'\bhybrid automatic repeat request\s*(?:\(\s*harq\s*\))?|\bharq\b','harq'),
- ('NR / new radio',r'\bnew radio\s*(?:\(\s*nr\s*\))?|\bnr\b','nr'),
- ('LTE / long term evolution',r'\blong[ -]term evolution\s*(?:\(\s*lte\s*\))?|\blte\b','lte'),
+ ('CSI / channel state information',r'\bchannel state information(?:\s*\(\s*csi\s*\))?|\bcsi\b','channel_state_information'),
+ ('DRX / discontinuous reception',r'\bdiscontinuous reception(?:\s*\(\s*drx\s*\))?|\bdrx\b','drx'),
+ ('HARQ / hybrid automatic repeat request',r'\bhybrid automatic repeat request(?:\s*\(\s*harq\s*\))?|\bharq\b','harq'),
+ ('NR / new radio',r'\bnew radio(?:\s*\(\s*nr\s*\))?|\bnr\b','nr'),
+ ('LTE / long term evolution',r'\blong[ -]term evolution(?:\s*\(\s*lte\s*\))?|\blte\b','lte'),
  ('Wi-Fi / WiFi',r'\bwi[ -]?fi\b','wifi'),
  ('reference signal',r'\breference signals?\b','reference_signal'),
  ('machine learning',r'\bmachine learning\b','machine_learning'),
@@ -36,6 +36,20 @@ token_pattern=r'(?u)\b[a-z0-9][a-z0-9_]*\b'
 def tokens(s):return [t for t in re.findall(token_pattern,s.lower()) if len(t)>1 and not t.isdigit()]
 rule_counts=[]
 working=text.str.lower()
+phrase_boundary_cases={
+ 'user equipment performance':'user_equipment performance',
+ 'user equipment (UE) performance':'user_equipment performance',
+ 'discontinuous reception for sidelink':'drx for sidelink',
+ 'discontinuous reception (DRX) for sidelink':'drx for sidelink',
+ 'new radio layer':'nr layer',
+ 'channel state information report':'channel_state_information report',
+ 'long term evolution network':'lte network',
+ 'hybrid automatic repeat request procedure':'harq procedure',
+}
+for sample,expected in phrase_boundary_cases.items():
+    normalized=sample.lower()
+    for _,pattern,replacement in rules:normalized=re.sub(pattern,replacement,normalized)
+    assert normalized==expected,(sample,normalized,expected)
 for name,pattern,replacement in rules:
     rule_counts.append({'rule':name,'normalized_token':replacement,'matched_occurrences':int(working.str.count(pattern).sum())})
     working=working.str.replace(pattern,replacement,regex=True)
@@ -80,7 +94,7 @@ assert set(protected).isdisjoint(stop)
 all_clean=Counter(t for ts in clean_tokens for t in ts)
 lost_tokens=[{'term':t,'occurrences':n} for t,n in all_clean.most_common() if t not in vocab]
 pd.DataFrame(lost_tokens).to_csv(PUBLIC/'tokens_outside_vocabulary.csv',index=False,encoding='utf-8-sig')
-stats={'input_documents':len(d),'output_documents':X.shape[0],'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'raw_token_occurrences':int(raw_tokens.map(len).sum()),'clean_token_occurrences':int(clean_tokens.map(len).sum()),'baseline_tfidf_features':X0.shape[1],'clean_tfidf_features':X.shape[1],'baseline_nonzero':int(X0.nnz),'clean_nonzero':int(X.nnz),'empty_documents':len(empty),'minimum_document_features':int(X.getnnz(axis=1).min()),'median_document_features':float(np.median(X.getnnz(axis=1))),'sidelink_title_documents':int(d.Title.str.contains('sidelink',case=False).sum()),'term_preservation_checks':checks,'matrix_checks':'finite, nonnegative, nonempty rows, row L2 norm=1, no configured stopwords in vocabulary','word_settings':base_params,'excluded_documents':0,'unobserved_or_df_filtered_terms':[x for x in checks if not x['in_tfidf_vocabulary']]}
+stats={'input_documents':len(d),'output_documents':X.shape[0],'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'raw_token_occurrences':int(raw_tokens.map(len).sum()),'clean_token_occurrences':int(clean_tokens.map(len).sum()),'baseline_tfidf_features':X0.shape[1],'clean_tfidf_features':X.shape[1],'baseline_nonzero':int(X0.nnz),'clean_nonzero':int(X.nnz),'empty_documents':len(empty),'minimum_document_features':int(X.getnnz(axis=1).min()),'median_document_features':float(np.median(X.getnnz(axis=1))),'sidelink_title_documents':int(d.Title.str.contains('sidelink',case=False).sum()),'term_preservation_checks':checks,'matrix_checks':'finite, nonnegative, nonempty rows, row L2 norm=1, no configured stopwords in vocabulary','word_settings':base_params,'excluded_documents':0,'phrase_boundary_regression_cases':phrase_boundary_cases,'unobserved_or_df_filtered_terms':[x for x in checks if not x['in_tfidf_vocabulary']]}
 (PUBLIC/'validation_summary.json').write_text(json.dumps(stats,ensure_ascii=False,indent=2),encoding='utf-8')
 plt.rcParams['font.family']='Malgun Gothic';plt.rcParams['axes.unicode_minus']=False
 fig,axs=plt.subplots(2,2,figsize=(16,11))

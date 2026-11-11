@@ -6,10 +6,10 @@ uplink,253,True,preserved
 downlink,215,True,preserved
 beam,66,True,preserved
 reference_signal,58,True,preserved
-channel_state_information,9,True,preserved
-drx,58,True,preserved
+channel_state_information,12,True,preserved
+drx,59,True,preserved
 harq,6,True,preserved
-nr,68,True,preserved
+nr,72,True,preserved
 lte,33,True,preserved
 5g,28,True,preserved
 4g,7,True,preserved

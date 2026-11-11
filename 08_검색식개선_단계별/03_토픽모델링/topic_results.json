@@ -1,0 +1,206 @@
+{
+  "documents": 495,
+  "features": 3955,
+  "selected_topics": 8,
+  "selected_seed": 42,
+  "init": "random",
+  "all_seeds": [
+    7,
+    42,
+    99
+  ],
+  "topics": [
+    {
+      "topic": 1,
+      "assigned_documents": 50,
+      "assigned_percent": 10.1010101010101,
+      "mixed_review_documents": 6,
+      "keywords": [
+        "rach",
+        "access channel",
+        "rach procedure",
+        "procedure",
+        "channel rach",
+        "random access",
+        "random",
+        "channel",
+        "access",
+        "message",
+        "rach message",
+        "step"
+      ]
+    },
+    {
+      "topic": 2,
+      "assigned_documents": 43,
+      "assigned_percent": 8.686868686868687,
+      "mixed_review_documents": 2,
+      "keywords": [
+        "drx",
+        "sidelink drx",
+        "drx configuration",
+        "sidelink",
+        "configuration",
+        "sidelink communication",
+        "user_equipment",
+        "configuration sidelink",
+        "duration",
+        "communication",
+        "mode",
+        "user_equipment sidelink"
+      ]
+    },
+    {
+      "topic": 3,
+      "assigned_documents": 82,
+      "assigned_percent": 16.565656565656568,
+      "mixed_review_documents": 8,
+      "keywords": [
+        "sidelink",
+        "resource",
+        "user_equipment",
+        "sidelink communication",
+        "relay",
+        "user_equipment sidelink",
+        "communication",
+        "sidelink transmission",
+        "link",
+        "relay user_equipment",
+        "sidelink resource",
+        "sidelink channel"
+      ]
+    },
+    {
+      "topic": 4,
+      "assigned_documents": 52,
+      "assigned_percent": 10.505050505050505,
+      "mixed_review_documents": 8,
+      "keywords": [
+        "beam",
+        "downlink",
+        "reference_signal",
+        "uplink",
+        "transmit",
+        "base_station",
+        "beam user_equipment",
+        "user_equipment",
+        "power",
+        "uplink beam",
+        "transmission",
+        "using"
+      ]
+    },
+    {
+      "topic": 5,
+      "assigned_documents": 91,
+      "assigned_percent": 18.383838383838384,
+      "mixed_review_documents": 6,
+      "keywords": [
+        "random",
+        "random access",
+        "access",
+        "access procedure",
+        "message",
+        "access message",
+        "preamble",
+        "procedure",
+        "response",
+        "access response",
+        "access preamble",
+        "base_station"
+      ]
+    },
+    {
+      "topic": 6,
+      "assigned_documents": 91,
+      "assigned_percent": 18.383838383838384,
+      "mixed_review_documents": 16,
+      "keywords": [
+        "uplink",
+        "transmission",
+        "downlink",
+        "resource",
+        "uplink transmission",
+        "set",
+        "user_equipment",
+        "uplink resource",
+        "control",
+        "channel",
+        "base_station",
+        "grant"
+      ]
+    },
+    {
+      "topic": 7,
+      "assigned_documents": 45,
+      "assigned_percent": 9.090909090909092,
+      "mixed_review_documents": 6,
+      "keywords": [
+        "network",
+        "entity",
+        "network entity",
+        "positioning",
+        "wlan",
+        "user_equipment",
+        "data",
+        "user_equipment network",
+        "cellular",
+        "access point",
+        "point",
+        "wifi"
+      ]
+    },
+    {
+      "topic": 8,
+      "assigned_documents": 41,
+      "assigned_percent": 8.282828282828284,
+      "mixed_review_documents": 9,
+      "keywords": [
+        "rat",
+        "nr",
+        "lte",
+        "radio access",
+        "radio",
+        "technology",
+        "5g",
+        "access technology",
+        "5g nr",
+        "technology rat",
+        "cell",
+        "access"
+      ]
+    }
+  ],
+  "mixed_review_documents": 61,
+  "duplicate_clean_text_additional_records": 4,
+  "highest_overlap_pairs": [
+    {
+      "topic_a": 1,
+      "topic_b": 5,
+      "cosine_similarity": 0.5016048860731224
+    },
+    {
+      "topic_a": 4,
+      "topic_b": 6,
+      "cosine_similarity": 0.38252801437095135
+    },
+    {
+      "topic_a": 2,
+      "topic_b": 3,
+      "cosine_similarity": 0.35314992062840034
+    },
+    {
+      "topic_a": 3,
+      "topic_b": 6,
+      "cosine_similarity": 0.3469255767227594
+    },
+    {
+      "topic_a": 1,
+      "topic_b": 6,
+      "cosine_similarity": 0.27496291322519534
+    }
+  ],
+  "source_matrix_sha256": "525828b0e3e0db009347ec0dd78af835a54845e40eb78c41b53d02e4fe74599f",
+  "documents_excluded": 0,
+  "mixed_rule": "max relative weight <0.35 OR top two relative-weight gap <0.10; exploratory, not calibrated confidence"
+}

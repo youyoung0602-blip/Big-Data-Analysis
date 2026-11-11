@@ -29,6 +29,7 @@ ias,4
 null,4
 resynchronization,4
 headroom,4
+codebook,4
 mistrusted,4
 capc,4
 rsrp,4
@@ -50,7 +51,6 @@ ttis,3
 experienced,3
 p2p,3
 advertiser,3
-codebook,3
 synchronous,3
 bandwidths,3
 bl,3
@@ -71,9 +71,9 @@ correlation,3
 caching,3
 numbers,3
 asymmetric,3
+movement,3
 forbidden,3
 ms,3
-channel_state_informationreport,3
 away,3
 du,3
 message1,3
@@ -136,7 +136,6 @@ bfr,2
 processor,2
 tag,2
 rrm,2
-user_equipmentvia,2
 pipeline,2
 mistrust,2
 scrambling,2
@@ -192,7 +191,6 @@ flag,2
 decoder,2
 pathloss,2
 satisfied,2
-movement,2
 cc,2
 strategy,2
 battery,2
@@ -202,7 +200,6 @@ volte,2
 irat,2
 piggybacking,2
 camped,2
-channel_state_informationfor,2
 pscell,2
 requirement,2
 cu,2
@@ -212,7 +209,6 @@ assumptions,2
 reflecting,2
 tdm,2
 statistics,2
-nrlayer,2
 stratum,2
 payloads,2
 feasible,2
@@ -258,7 +254,6 @@ reallocation,1
 issue,1
 cancelation,1
 preempt,1
-user_equipmentdiscovery,1
 eu,1
 inefficient,1
 abort,1
@@ -266,12 +261,10 @@ adding,1
 reestablished,1
 newly,1
 collecting,1
-grouping,1
 purposes,1
 initiating,1
 managed,1
 communicatively,1
-user_equipmentposition,1
 supplementary,1
 supplemental,1
 waits,1
@@ -299,7 +292,6 @@ final,1
 aided,1
 xtyr,1
 possibly,1
-user_equipmentidentifier,1
 confirming,1
 rejecting,1
 inclusion,1
@@ -331,7 +323,6 @@ needs,1
 delivered,1
 intermediate,1
 complementary,1
-user_equipmentfrom,1
 prevented,1
 inhibited,1
 overall,1
@@ -358,7 +349,6 @@ rely,1
 dfi,1
 controlling,1
 interruption,1
-drxon,1
 discovering,1
 fidelity,1
 discover,1
@@ -382,7 +372,6 @@ verify,1
 proximate,1
 validated,1
 psap,1
-user_equipmentproviding,1
 participating,1
 operational,1
 compact,1
@@ -396,7 +385,6 @@ precode,1
 informed,1
 aligns,1
 shifted,1
-user_equipmentgrouping,1
 spanning,1
 implemented,1
 synchronizing,1
@@ -413,7 +401,6 @@ grouped,1
 geographically,1
 functionally,1
 dmtc,1
-drxcommand,1
 stop,1
 mismatch,1
 handshaking,1
@@ -429,7 +416,6 @@ lie,1
 collects,1
 preconfigured,1
 reallocate,1
-user_equipmentcooperative,1
 indirectly,1
 head,1
 exploit,1
@@ -449,24 +435,19 @@ span,1
 occurs,1
 prompt,1
 ending,1
-user_equipmentover,1
-user_equipmentat,1
 disabling,1
 specify,1
 mixed,1
 regard,1
-harqcodebook,1
 summed,1
 decision,1
 inaccurate,1
 inconsistent,1
 aborting,1
-user_equipmentspecific,1
 loaded,1
 savings,1
 programming,1
 api,1
-user_equipmentthe,1
 problem,1
 exists,1
 failures,1
@@ -492,13 +473,11 @@ table,1
 po,1
 synchronized,1
 transient,1
-channel_state_informationassociated,1
 absent,1
 base,1
 followed,1
 contains,1
 retrieve,1
-user_equipmentaspects,1
 phases,1
 amplitudes,1
 maintained,1
@@ -513,7 +492,6 @@ ground,1
 continue,1
 running,1
 govern,1
-user_equipmentbehavior,1
 preempted,1
 continuous,1
 extensions,1
@@ -534,17 +512,14 @@ elect,1
 expires,1
 reselection,1
 engaged,1
-drxin,1
 effective,1
 approach,1
 centric,1
 code,1
 cdm,1
-drxcommunications,1
 widths,1
 properly,1
 fr1,1
-drxtimer,1
 operated,1
 property,1
 relaying,1
@@ -552,7 +527,6 @@ encode,1
 deactivation,1
 decrease,1
 distance,1
-nrsystems,1
 scalable,1
 coordinate,1
 conflicting,1
@@ -572,14 +546,12 @@ no,1
 orders,1
 cif,1
 amf,1
-drxand,1
 programmable,1
 logic,1
 plc,1
 sensor,1
 actuator,1
 child,1
-user_equipmentbased,1
 global,1
 navigation,1
 outputs,1
@@ -592,11 +564,9 @@ temporarily,1
 risking,1
 glitches,1
 profiles,1
-user_equipmentinitiated,1
 intention,1
 reservations,1
 permitting,1
-drxwake,1
 train,1
 dft,1
 potentially,1
@@ -624,7 +594,6 @@ probabilistic,1
 occurring,1
 advancements,1
 tas,1
-drxmanagement,1
 txops,1
 open,1
 member,1
@@ -646,7 +615,6 @@ duplexed,1
 actively,1
 causes,1
 statuses,1
-user_equipmentnew,1
 guaranteed,1
 charnels,1
 directs,1
@@ -654,7 +622,6 @@ properties,1
 soft,1
 likewise,1
 perspective,1
-user_equipmentperformance,1
 dpch,1
 modifies,1
 recover,1
@@ -663,7 +630,6 @@ leveraging,1
 estimates,1
 vectors,1
 symmetric,1
-user_equipmentmovement,1
 recorded,1
 course,1
 deterministically,1
@@ -671,20 +637,17 @@ makes,1
 industrial,1
 iiot,1
 avoided,1
-drxnotifications,1
+notifications,1
 wavelength,1
-user_equipmenttransmission,1
 analog,1
 hybrid,1
 nearby,1
 case,1
 broadcasting,1
 sweeps,1
-nrsounding,1
 degradation,1
 convey,1
 coherent,1
-user_equipmentfor,1
 absolute,1
 ar,1
 fcn,1
@@ -739,7 +702,6 @@ standby,1
 satisfy,1
 drbs,1
 address,1
-user_equipmenthandover,1
 distributing,1
 dn,1
 discarding,1
@@ -755,13 +717,11 @@ taken,1
 correspondingly,1
 drop,1
 spatially,1
-user_equipmentincludes,1
 ranging,1
 observed,1
 blindly,1
 baseline,1
 adversely,1
-user_equipmentgroup,1
 subscribed,1
 receptions,1
 rucch,1
@@ -773,7 +733,6 @@ coinciding,1
 matches,1
 ends,1
 discards,1
-user_equipmentassisted,1
 recommended,1
 prevails,1
 seen,1
@@ -789,5 +748,5 @@ affected,1
 scells,1
 panels,1
 skips,1
-user_equipmentrelays,1
+relays,1
 l1,1

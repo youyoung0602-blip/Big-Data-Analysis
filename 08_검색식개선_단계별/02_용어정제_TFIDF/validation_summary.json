@@ -3,14 +3,14 @@
   "output_documents": 495,
   "source_sha256": "c0e420f7c92cdbc969bab286ba74dd7278573c27d163502d7d09fcd361762418",
   "raw_token_occurrences": 62102,
-  "clean_token_occurrences": 32187,
+  "clean_token_occurrences": 31874,
   "baseline_tfidf_features": 6178,
-  "clean_tfidf_features": 3998,
+  "clean_tfidf_features": 3955,
   "baseline_nonzero": 64109,
-  "clean_nonzero": 28908,
+  "clean_nonzero": 28354,
   "empty_documents": 0,
-  "minimum_document_features": 22,
-  "median_document_features": 57.0,
+  "minimum_document_features": 23,
+  "median_document_features": 56.0,
   "sidelink_title_documents": 135,
   "term_preservation_checks": [
     {
@@ -57,13 +57,13 @@
     },
     {
       "term": "channel_state_information",
-      "documents_after_normalization": 9,
+      "documents_after_normalization": 12,
       "in_tfidf_vocabulary": true,
       "reason": "preserved"
     },
     {
       "term": "drx",
-      "documents_after_normalization": 58,
+      "documents_after_normalization": 59,
       "in_tfidf_vocabulary": true,
       "reason": "preserved"
     },
@@ -75,7 +75,7 @@
     },
     {
       "term": "nr",
-      "documents_after_normalization": 68,
+      "documents_after_normalization": 72,
       "in_tfidf_vocabulary": true,
       "reason": "preserved"
     },
@@ -196,6 +196,16 @@
     "token_pattern": "(?u)\\b[a-z0-9][a-z0-9_]+\\b"
   },
   "excluded_documents": 0,
+  "phrase_boundary_regression_cases": {
+    "user equipment performance": "user_equipment performance",
+    "user equipment (UE) performance": "user_equipment performance",
+    "discontinuous reception for sidelink": "drx for sidelink",
+    "discontinuous reception (DRX) for sidelink": "drx for sidelink",
+    "new radio layer": "nr layer",
+    "channel state information report": "channel_state_information report",
+    "long term evolution network": "lte network",
+    "hybrid automatic repeat request procedure": "harq procedure"
+  },
   "unobserved_or_df_filtered_terms": [
     {
       "term": "3gpp",

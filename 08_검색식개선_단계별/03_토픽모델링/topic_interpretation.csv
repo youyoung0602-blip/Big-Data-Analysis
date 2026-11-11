@@ -1,0 +1,9 @@
+﻿topic,interpreted_name,assigned_documents,assigned_percent,mixed_review_documents,top_keywords,reviewed_representative_subjects,scope_decision
+T01,RACH 절차·타이밍,50,10.1010101010101,6,"rach, access channel, rach procedure, procedure, channel rach, random access, random, channel, access, message","2단계 RACH의 타이밍 표시, 접속 절차 유형과 단말 성능 표시",미정: 4단계에서 연구 범위 검토
+T02,DRX 절전·사이드링크 수신,43,8.686868686868687,2,"drx, sidelink drx, drx configuration, sidelink, configuration, sidelink communication, user_equipment, configuration sidelink, duration, communication",사이드링크 DRX 설정과 수신 주기 정렬,미정: 4단계에서 연구 범위 검토
+T03,사이드링크 자원·UE 중계,82,16.565656565656568,8,"sidelink, resource, user_equipment, sidelink communication, relay, user_equipment sidelink, communication, sidelink transmission, link, relay user_equipment",원격 단말과 중계 단말의 사이드링크 자원 선택·전송 및 NR 중계,미정: 4단계에서 연구 범위 검토
+T04,빔 관리·기준신호,52,10.505050505050505,8,"beam, downlink, reference_signal, uplink, transmit, base_station, beam user_equipment, user_equipment, power, uplink beam",상하향 기준신호를 이용한 빔 관리와 주기적 이동에 대한 빔 추적,미정: 4단계에서 연구 범위 검토
+T05,랜덤 액세스 메시지·응답,91,18.383838383838384,6,"random, random access, access, access procedure, message, access message, preamble, procedure, response, access response","랜덤 액세스 메시지·응답, 접속 절차 및 폴백",미정: 4단계에서 연구 범위 검토
+T06,상하향 자원·제어 채널,91,18.383838383838384,16,"uplink, transmission, downlink, resource, uplink transmission, set, user_equipment, uplink resource, control, channel",상향 제어 채널 자원 할당과 DCI를 통한 상하향 스케줄링,미정: 4단계에서 연구 범위 검토
+T07,네트워크 제어·WLAN 연동,45,9.090909090909092,6,"network, entity, network entity, positioning, wlan, user_equipment, data, user_equipment network, cellular, access point","분산 RAN 제어, WLAN·셀룰러 이중연결과 네트워크 선택",미정: 4단계에서 연구 범위 검토
+T08,다중 RAT·NR/LTE 연동,41,8.282828282828284,9,"rat, nr, lte, radio access, radio, technology, 5g, access technology, 5g nr, technology rat","여러 무선접속기술 간 이동성·전력 제어, 음성 폴백과 5G 복귀",미정: 4단계에서 연구 범위 검토
