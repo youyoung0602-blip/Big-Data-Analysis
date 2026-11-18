@@ -1,0 +1,34 @@
+{
+  "source_file": "v2_Lens_퀄컴_무선통신_요약전수검토_2015-2024.csv",
+  "source_sha256": "2d7b57073e28905668d0cf4619c689c3323de95cc084806b18b067ff1fb2ac44",
+  "records_all": 6434,
+  "records_2015_2024": 4594,
+  "records_outside_window": 1840,
+  "families_all_connected_members": 6434,
+  "families_2015_2024": 4594,
+  "duplicate_family_records_in_window": 0,
+  "missing_title": 0,
+  "missing_abstract": 0,
+  "missing_priority_records": 39,
+  "missing_priority_families_in_window": 0,
+  "period_denominators": {
+    "2015–2019": 1822,
+    "2020–2024": 2569
+  },
+  "outside_priority_periods": 203,
+  "lexical_family_counts": {
+    "sidelink_or_pc5": 1287,
+    "drx": 112,
+    "relay": 134,
+    "sidelink_and_resource_drx_relay": 804
+  },
+  "tfidf_shape": [
+    4594,
+    7730
+  ],
+  "tfidf_empty_documents": 0,
+  "python": "3.11.2",
+  "sklearn": "1.8.0",
+  "analysis_date": "2026-11-18",
+  "source_query_available": false
+}
