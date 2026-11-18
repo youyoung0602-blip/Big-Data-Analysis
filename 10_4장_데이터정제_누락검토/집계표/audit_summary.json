@@ -1,0 +1,23 @@
+{
+  "analysis_date": "2026-11-18",
+  "source_sha256": "6f13a1ae8e5abdcf7e4792d297c529862f1b87cc5156b506a00e7da213d9ca74",
+  "source_rows": 1152,
+  "us_rows": 949,
+  "us_2020_2024_rows": 489,
+  "overlapping_family_rows": 8,
+  "outside_v2_rows": 481,
+  "candidate_families": 361,
+  "same_family_additional_rows": 120,
+  "representative_title_hit_families": 18,
+  "representative_no_title_hit_families": 343,
+  "representative_missing_abstract": 0,
+  "missing_title": 0,
+  "missing_abstract": 8,
+  "invalid_application_date": 0,
+  "missing_lens_id": 0,
+  "reference_rows_unique": 2962,
+  "v2_rows": 6434,
+  "v2_us_2020_2024_rows": 5073,
+  "relevance_review_done": false,
+  "live_query_verified": false
+}
