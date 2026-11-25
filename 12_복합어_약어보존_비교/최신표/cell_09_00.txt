@@ -1,0 +1,43 @@
+                                                            (+) 상위 단어  \
+T1                      sidelink, feedback, csi, beam, uplink, report   
+T2                     csi, report, beam, uplink, reporting, downlink   
+T3             csi, sidelink, report, reporting, reports, measurement   
+T4                       beam, failure, beams, recovery, cell, access   
+T5                     beam, harq, feedback, failure, recovery, beams   
+T6                        random, access, feedback, harq, prach, beam   
+T7                      cell, handover, harq, feedback, source, cells   
+T8                 bwp, bandwidth, frequency, band, active, switching   
+T9                positioning, sps, prs, scheduling, semi, persistent   
+T10                   positioning, prs, uplink, harq, timing, advance   
+T11               timing, bwp, advance, feedback, bandwidth, sidelink   
+T12                  feedback, positioning, sps, prs, timing, advance   
+T13        timing, advance, carrier, component, carriers, aggregation   
+T14                relay, link, feedback, handover, remote, frequency   
+T15       frequency, beamforming, band, synchronization, ssb, antenna   
+T16             power, antenna, measurement, beamforming, mimo, level   
+T17    measurement, ssb, synchronization, block, interference, report   
+T18  measurement, interference, report, duplex, sensing, measurements   
+T19                   power, failure, frequency, band, recovery, link   
+T20      handover, source, conditional, measurement, carrier, sensing   
+
+                                                            (−) 하위 단어  
+T1     constellation, shaping, amplifier, lens, bluetooth, dictionary  
+T2        sidelink, sci, pool, reservation, positioning, coordination  
+T3                           uplink, random, beam, access, cell, harq  
+T4                     feedback, harq, automatic, repeat, hybrid, ack  
+T5                      random, access, prach, rach, uplink, preamble  
+T6                      uplink, cell, bwp, grant, handover, bandwidth  
+T7                   uplink, grant, beam, downlink, pusch, scheduling  
+T8                     uplink, cell, handover, timing, grant, advance  
+T9            feedback, carrier, uplink, frequency, band, aggregation  
+T10                  sps, scheduling, semi, persistent, downlink, dci  
+T11        carrier, frequency, band, aggregation, component, carriers  
+T12                         relay, harq, link, request, bwp, handover  
+T13               feedback, handover, grant, uplink, positioning, bwp  
+T14                             cell, harq, sidelink, csi, prach, bwp  
+T15  carrier, component, carriers, feedback, aggregation, positioning  
+T16                    frequency, band, failure, csi, timing, carrier  
+T17                 antenna, handover, failure, csi, power, frequency  
+T18         ssb, synchronization, relay, block, handover, positioning  
+T19              beamforming, antenna, downlink, mimo, carrier, beams  
+T20                       cell, relay, link, prach, physical, antenna  

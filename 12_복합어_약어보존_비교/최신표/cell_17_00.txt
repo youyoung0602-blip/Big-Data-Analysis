@@ -1,0 +1,8 @@
+                                                                              상위 키워드
+T1          sidelink, positioning, sci, pool, feedback, reservation, link, frequency
+T2  csi, report, reporting, measurement, reports, measurements, interference, domain
+T3   beam, failure, beams, recovery, management, beamforming, detection, measurement
+T4                 harq, feedback, hybrid, automatic, repeat, request, ack, downlink
+T5             random, access, prach, rach, preamble, physical, response, repetition
+T6                uplink, grant, downlink, scheduling, bwp, pusch, shared, bandwidth
+T7                   cell, handover, cells, source, serving, mobility, timing, layer

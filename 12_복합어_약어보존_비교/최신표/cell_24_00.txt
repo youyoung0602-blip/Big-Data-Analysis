@@ -1,0 +1,91 @@
+    토픽  순위                특허번호  출원연도  \
+0   T1   1  US 2022/0070850 A1  2021   
+1   T1   2      US 11765696 B2  2020   
+2   T1   3      US 11477764 B2  2020   
+3   T2   1  US 2021/0143882 A1  2020   
+4   T2   2  US 2021/0083740 A1  2020   
+5   T2   3  US 2024/0322966 A1  2022   
+6   T3   1  US 2023/0118940 A1  2021   
+7   T3   2  US 2024/0113767 A1  2023   
+8   T3   3      US 12375151 B2  2022   
+9   T4   1  US 2023/0143786 A1  2021   
+10  T4   2      US 12003458 B2  2020   
+11  T4   3      US 12074717 B2  2023   
+12  T5   1  US 2025/0193939 A1  2024   
+13  T5   2  US 2023/0209606 A1  2020   
+14  T5   3      US 11653383 B2  2021   
+15  T6   1      US 11838907 B2  2021   
+16  T6   2  US 2020/0267757 A1  2020   
+17  T6   3      US 12452860 B2  2022   
+18  T7   1      US 11570706 B2  2020   
+19  T7   2  US 2021/0219194 A1  2020   
+20  T7   3      US 12192749 B2  2021   
+
+                                                                                                                발명의명칭  \
+0                                                                  SIGNALING AN INDICATION OF A SIDELINK TRANSMISSION   
+1                                                    Sidelink resource allocation for device-to-device communications   
+2                                                                         Transmitting system information on sidelink   
+3                                                                 CSI REPORT INCLUDING INFORMATION IDENTIFYING CSI-RS   
+4                                                           CSI REPORT SETTING BY THE CSI-TRANSMITTING USER EQUIPMENT   
+5                               CHANNEL STATE INFORMATION (CSI) PRIORITY AND MULTIPLEXING FOR APERIODIC CSI REPORTING   
+6                                                       BEAM FAILURE DETECTION PER BEAM FOR MULTI-BEAM COMMUNICATIONS   
+7                                              BEAM FAILURE RECOVERY REQUEST FOR PER BEAM GROUP BEAM FAILURE RECOVERY   
+8                                                                                  Beam failure recovery via sidelink   
+9                                                               HYBRID AUTOMATIC REPEAT REQUEST FEEDBACK VERIFICATION   
+10                                                 Sidelink feedback transmission and feedback resource determination   
+11                                                            Hybrid automatic repeat request feedback retransmission   
+12                               RANDOM ACCESS CHANNEL OCCASION CONFIGURATIONS FOR RANDOM ACCESS PREAMBLE REPETITIONS   
+13  RANDOM ACCESS RADIO NETWORK TEMPORARY IDENTIFIER (RA-RNTI) WITH PHYSICAL RANDOM ACCESS CHANNEL (PRACH) REPETITION   
+14                             Techniques for performing random access procedures in sidelink wireless communications   
+15                                          Simultaneous feedback information and uplink shared channel transmissions   
+16                                                                                  TWO-STAGE UPLINK GRANT PROCEDURES   
+17                                                                                   Semiautonomous uplink scheduling   
+18                                                              Operation modes for L1/L2-centric inter-cell mobility   
+19                                                           TRANSIENT PERIOD OPERATION FOR L1/L2 BASED CELL HANDOVER   
+20                                                                                         Network triggered handover   
+
+     W가중치  \
+0   0.208   
+1   0.201   
+2   0.194   
+3   0.270   
+4   0.262   
+5   0.261   
+6   0.233   
+7   0.229   
+8   0.226   
+9   0.339   
+10  0.334   
+11  0.322   
+12  0.344   
+13  0.331   
+14  0.319   
+15  0.269   
+16  0.257   
+17  0.256   
+18  0.278   
+19  0.276   
+20  0.271   
+
+                                                                                                                                                                                                                                                                                                         요약(앞부분)  
+0   SIGNALING AN INDICATION OF A SIDELINK TRANSMISSION Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a first user equipment (UE) may transmit, to a second UE, an indication of a transmission on a sidelink resource from the first UE to the second U  
+1   Sidelink resource allocation for device-to-device communications Aspects relate to wireless communication devices configured to facilitate power conservation and sidelink communications. According to one example, a wireless communication device can transmit a first sidelink transmission, determine o  
+2   Transmitting system information on sidelink Certain aspects of the present disclosure provide techniques for transmitting system information on sidelink. A method that may be performed by a first user equipment (UE) includes receiving first system information from a second UE; determining, based on   
+3   CSI REPORT INCLUDING INFORMATION IDENTIFYING CSI-RS A method, a computer-readable medium, and an apparatus for wireless communication at a first user equipment (UE). A channel state information (CSI) report trigger can be received from a second UE, and a channel state information reference signal (C  
+4   CSI REPORT SETTING BY THE CSI-TRANSMITTING USER EQUIPMENT Some aspects provide a method for wireless communication by a first wireless device. The method generally includes transmitting control information regarding at least one of scheduling or configuration of a channel state information (CSI) rep  
+5   CHANNEL STATE INFORMATION (CSI) PRIORITY AND MULTIPLEXING FOR APERIODIC CSI REPORTING The present disclosure provides systems, methods and apparatus, including computer programs encoded on computer storage media, for channel state information (CSI) priority and multiplexing for aperiodic CSI reporti  
+6   BEAM FAILURE DETECTION PER BEAM FOR MULTI-BEAM COMMUNICATIONS Certain aspects of the present disclosure provide techniques for beam failure detection per beam. A method that may be performed by a user equipment (UE) includes communicating with a network entity via a plurality of beams associated wit  
+7   BEAM FAILURE RECOVERY REQUEST FOR PER BEAM GROUP BEAM FAILURE RECOVERY Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a user equipment (UE) may detect beam failure for a first beam group in a cell including the first beam group and a second bea  
+8   Beam failure recovery via sidelink Methods, systems, and devices for wireless communications are described. A first user equipment (UE) may communicate with a network node via a first wireless link using a first beam according to a first beam configuration. In some examples, the first UE may transmi  
+9   HYBRID AUTOMATIC REPEAT REQUEST FEEDBACK VERIFICATION Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a user equipment (UE) may transmit hybrid automatic repeat request (HARQ) feedback for a downlink transmission from a base station; receive an   
+10  Sidelink feedback transmission and feedback resource determination Methods, systems, and devices for wireless communications are described. A communication device, which may be otherwise known as user equipment (UE), may receive a data transmission and determine a slot to transmit a hybrid automatic  
+11  Hybrid automatic repeat request feedback retransmission Certain aspects of the present disclosure provide techniques and apparatus for hybrid automatic repeat request (HARQ) feedback retransmission. An example method of wireless communication by a user equipment generally includes receiving signalin  
+12  RANDOM ACCESS CHANNEL OCCASION CONFIGURATIONS FOR RANDOM ACCESS PREAMBLE REPETITIONS A method of wireless communication performed by a user equipment (UE) includes receiving, from a base station (BS), a random access configuration associated with a plurality of random access occasions, wherein at le  
+13  RANDOM ACCESS RADIO NETWORK TEMPORARY IDENTIFIER (RA-RNTI) WITH PHYSICAL RANDOM ACCESS CHANNEL (PRACH) REPETITION Wireless communication systems and methods related to random access in a wireless communication network are provided. A user equipment (UE) receives a configuration indicating a random a  
+14  Techniques for performing random access procedures in sidelink wireless communications Some aspects described herein relate to configuring user equipment (UE) for performing sidelink (SL) random access (RA) procedures, which may include assistance from a base station or other network component. One   
+15  Simultaneous feedback information and uplink shared channel transmissions Methods, systems, and devices for wireless communications are described. A UE may receive a piggybacking status for a first uplink carrier of a set of uplink carriers configured for the UE, receive a first uplink grant that in  
+16  TWO-STAGE UPLINK GRANT PROCEDURES Methods, systems, and devices for wireless communications are described. Generally, the described techniques provide for encoding uplink data for transmission based on control information included in a first uplink grant corresponding to a first set of uplink resour  
+17  Semiautonomous uplink scheduling Methods, systems, and devices for wireless communication at a user equipment (UE) are described. A UE may receive control signaling including an indication of time and frequency resources that are configured for semiautonomous uplink scheduling from the UE. The UE ma  
+18  Operation modes for L1/L2-centric inter-cell mobility Aspects relate to Layer 1/Layer 2-centric inter-cell mobility communication systems where measurement information from at least one user equipment (UE) is sent to a base station. Based on this information, the base station may select at least one  
+19  TRANSIENT PERIOD OPERATION FOR L1/L2 BASED CELL HANDOVER Aspects of the present disclosure provide apparatus, methods, processing systems, and computer readable mediums for enabling L1 (physical layer) and L2 (medium access control (MAC) layer) inter-cell mobility. More specifically, rules and opera  
+20  Network triggered handover Methods, systems, and devices for wireless communications are described. The described techniques may provide for efficiently triggering a handover at a user equipment (UE) from a source cell to a target cell. The UE may receive, at a first time period, a first control mes  

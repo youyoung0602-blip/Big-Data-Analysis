@@ -1,0 +1,5 @@
+                                                                 비슷한 단어
+sidelink  preemption, mini, pool, subchannel, subchannels, reservations
+beam                    pair, sweeping, management, pairs, beams, sweep
+harq                 repeat, hybrid, automatic, ack, processes, process
+wlan                local, area, cellular, peripheral, bluetooth, radio
