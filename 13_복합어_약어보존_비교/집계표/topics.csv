@@ -1,0 +1,8 @@
+﻿topic,baseline_label,old_count,new_matched_count,old_keywords,new_keywords,new_label
+1,사이드링크,1324,1306,"sidelink, positioning, pool, feedback, reservation, link, frequency, relay","sidelink, positioning, resource_pool, feedback, reservation, link, access, relay, sensing, power, reception, frequency",사이드링크
+2,CSI,609,699,"csi, report, reporting, measurement, reports, measurements, interference, domain","channel_state_information, report, reference_signal, reporting, measurement, reports, measurements, interference, domain, antenna, aperiodic, port",CSI·참조 신호
+3,랜덤 액세스,340,537,"random, access, prach, rach, preamble, physical, response, repetition","bwp, bandwidth, frequency, band, active, switching, downlink, switch, duplex, hopping, bwps, carrier",BWP·대역 운용
+4,HARQ,552,500,"harq, feedback, hybrid, automatic, request, repeat, ack, downlink","harq, feedback, hybrid, automatic, repeat, request, ack, downlink, codebook, process, dci, pdsch",HARQ
+5,빔,548,544,"beam, failure, beams, recovery, management, beamforming, detection, measurement","beam, beams, failure, beam_failure_recovery, reference_signal, beamforming, beam_management, detection, measurement, link, report, pair",빔 관리
+6,스케줄링,1087,895,"uplink, grant, downlink, scheduling, pusch, bwp, shared, timing","uplink, random_access, downlink, scheduling, grant, configured_grant, timing, pusch, physical, prach, shared, advance",접속·스케줄링
+7,이동성,584,563,"cell, handover, cells, source, serving, mobility, timing, bwp","cell, handover, cells, source, serving, timing, mobility, layer, secondary, conditional, advance, measurement",이동성

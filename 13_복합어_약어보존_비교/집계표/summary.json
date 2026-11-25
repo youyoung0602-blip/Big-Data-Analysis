@@ -1,0 +1,15 @@
+{
+  "documents": 5044,
+  "annual_counts": {
+    "2020": 940,
+    "2021": 1722,
+    "2022": 1179,
+    "2023": 736,
+    "2024": 467
+  },
+  "agreement_after_matching": 0.7829103885804917,
+  "adjusted_rand_index": 0.6924944329247226,
+  "old_empty_rows": 0,
+  "new_empty_rows": 0,
+  "baseline_counts_match_notebook": false
+}
