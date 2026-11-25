@@ -1,13 +1,13 @@
      유사도  출원연도                특허번호  \
-0  1.000  2023  US 2024/0292433 A1   
-1  0.999  2023  US 2025/0056583 A1   
-2  0.999  2020      US 11457455 B2   
-3  0.998  2020      US 11838909 B2   
-4  0.997  2021  US 2024/0284335 A1   
+0  1.000  2023  US 2024/0292433 A1
+1  0.999  2023  US 2025/0056583 A1
+2  0.999  2020      US 11457455 B2
+3  0.998  2020      US 11838909 B2
+4  0.997  2021  US 2024/0284335 A1
 
-                                                                                              발명의명칭  
-0                                          TRANSMIT PARAMETER FOR PORTION OF SIDELINK RESOURCE POOL  
-1                                RADAR TRANSMISSIONS USING RESOURCES OF SIDELINK RESOURCE SUB-POOLS  
-2  Signaling for selecting a subset of sidelink transmit resource pool by a receiver UE in sidelink  
-3                                                      Sidelink resource pool for control signaling  
-4                   WAKEUP SIGNAL (WUS) RESOURCE CONFIGURATION FOR SIDELINK WIRELESS COMMUNICATIONS  
+                                                                                              발명의명칭
+0                                          TRANSMIT PARAMETER FOR PORTION OF SIDELINK RESOURCE POOL
+1                                RADAR TRANSMISSIONS USING RESOURCES OF SIDELINK RESOURCE SUB-POOLS
+2  Signaling for selecting a subset of sidelink transmit resource pool by a receiver UE in sidelink
+3                                                      Sidelink resource pool for control signaling
+4                   WAKEUP SIGNAL (WUS) RESOURCE CONFIGURATION FOR SIDELINK WIRELESS COMMUNICATIONS

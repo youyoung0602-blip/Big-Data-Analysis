@@ -1,19 +1,19 @@
        특허 수  비중(%)  \
-topic                
-1      1294   25.7   
-2       616   12.2   
-3       479    9.5   
-4       576   11.4   
-5       435    8.6   
-6      1096   21.7   
-7       548   10.9   
+topic
+1      1294   25.7
+2       616   12.2
+3       479    9.5
+4       576   11.4
+5       435    8.6
+6      1096   21.7
+7       548   10.9
 
-                                                                                 상위 키워드  
-topic                                                                                    
-1              sidelink, positioning, sci, pool, feedback, reservation, link, frequency  
-2      csi, report, reporting, measurement, reports, measurements, interference, domain  
-3       beam, failure, beams, recovery, management, beamforming, detection, measurement  
-4                     harq, feedback, hybrid, automatic, repeat, request, ack, downlink  
-5                 random, access, prach, rach, preamble, physical, response, repetition  
-6                    uplink, grant, downlink, scheduling, bwp, pusch, shared, bandwidth  
-7                       cell, handover, cells, source, serving, mobility, timing, layer  
+                                                                                 상위 키워드
+topic
+1              sidelink, positioning, sci, pool, feedback, reservation, link, frequency
+2      csi, report, reporting, measurement, reports, measurements, interference, domain
+3       beam, failure, beams, recovery, management, beamforming, detection, measurement
+4                     harq, feedback, hybrid, automatic, repeat, request, ack, downlink
+5                 random, access, prach, rach, preamble, physical, response, repetition
+6                    uplink, grant, downlink, scheduling, bwp, pusch, shared, bandwidth
+7                       cell, handover, cells, source, serving, mobility, timing, layer

@@ -1,25 +1,25 @@
                                  A1 번호           B2 번호  출원일 동일  제목 동일  요약 동일  \
-Application Number                                                             
-17/446,805          US 2022/0070890 A1  US 12786985 B2    True   True   True   
-17/674,756          US 2023/0262716 A1  US 12787014 B2    True   True   True   
-17/712,061          US 2023/0318797 A1  US 12785915 B2    True   True   True   
-18/003,465          US 2023/0254022 A1  US 12785771 B2    True   True   True   
-18/178,281          US 2024/0298143 A1  US 12786667 B2    True   True   True   
-18/182,816          US 2024/0313844 A1  US 12785779 B2    True   True   True   
-18/251,360          US 2024/0032076 A1  US 12787040 B2    True   True   True   
-18/256,043          US 2024/0106565 A1  US 12785843 B2    True  False   True   
-18/264,224          US 2024/0048348 A1  US 12785914 B2    True   True   True   
-18/316,971          US 2024/0381376 A1  US 12787032 B2    True   True   True   
+Application Number
+17/446,805          US 2022/0070890 A1  US 12786985 B2    True   True   True
+17/674,756          US 2023/0262716 A1  US 12787014 B2    True   True   True
+17/712,061          US 2023/0318797 A1  US 12785915 B2    True   True   True
+18/003,465          US 2023/0254022 A1  US 12785771 B2    True   True   True
+18/178,281          US 2024/0298143 A1  US 12786667 B2    True   True   True
+18/182,816          US 2024/0313844 A1  US 12785779 B2    True   True   True
+18/251,360          US 2024/0032076 A1  US 12787040 B2    True   True   True
+18/256,043          US 2024/0106565 A1  US 12785843 B2    True  False   True
+18/264,224          US 2024/0048348 A1  US 12785914 B2    True   True   True
+18/316,971          US 2024/0381376 A1  US 12787032 B2    True   True   True
 
-                    우선일 동일  
-Application Number          
-17/446,805           False  
-17/674,756           False  
-17/712,061           False  
-18/003,465           False  
-18/178,281           False  
-18/182,816           False  
-18/251,360           False  
-18/256,043           False  
-18/264,224           False  
-18/316,971           False  
+                    우선일 동일
+Application Number
+17/446,805           False
+17/674,756           False
+17/712,061           False
+18/003,465           False
+18/178,281           False
+18/182,816           False
+18/251,360           False
+18/256,043           False
+18/264,224           False
+18/316,971           False

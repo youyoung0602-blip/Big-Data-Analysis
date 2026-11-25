@@ -1,13 +1,13 @@
    BM25_점수  출원연도                특허번호  \
-0    8.354  2021      US 11800491 B2   
-1    8.335  2023  US 2025/0056583 A1   
-2    8.288  2020      US 11457455 B2   
-3    8.164  2022  US 2024/0357570 A1   
-4    8.062  2023  US 2024/0292433 A1   
+0    8.354  2021      US 11800491 B2
+1    8.335  2023  US 2025/0056583 A1
+2    8.288  2020      US 11457455 B2
+3    8.164  2022  US 2024/0357570 A1
+4    8.062  2023  US 2024/0292433 A1
 
-                                                                                              발명의명칭  
-0                                                   Resource pool-based communications for sidelink  
-1                                RADAR TRANSMISSIONS USING RESOURCES OF SIDELINK RESOURCE SUB-POOLS  
-2  Signaling for selecting a subset of sidelink transmit resource pool by a receiver UE in sidelink  
-3                                                                            COUPLED RESOURCE POOLS  
-4                                          TRANSMIT PARAMETER FOR PORTION OF SIDELINK RESOURCE POOL  
+                                                                                              발명의명칭
+0                                                   Resource pool-based communications for sidelink
+1                                RADAR TRANSMISSIONS USING RESOURCES OF SIDELINK RESOURCE SUB-POOLS
+2  Signaling for selecting a subset of sidelink transmit resource pool by a receiver UE in sidelink
+3                                                                            COUPLED RESOURCE POOLS
+4                                          TRANSMIT PARAMETER FOR PORTION OF SIDELINK RESOURCE POOL
