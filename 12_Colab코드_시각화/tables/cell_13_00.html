@@ -1,0 +1,380 @@
+<meta charset="utf-8">
+  <div id="df-1dd8663e-63cd-453c-a4ad-fef6d554a562" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>토픽</th>
+      <th>순위</th>
+      <th>특허번호</th>
+      <th>출원연도</th>
+      <th>발명의명칭</th>
+      <th>W가중치</th>
+      <th>요약(앞부분)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>T1</td>
+      <td>1</td>
+      <td>US 2022/0070850 A1</td>
+      <td>2021</td>
+      <td>SIGNALING AN INDICATION OF A SIDELINK TRANSMISSION</td>
+      <td>0.208</td>
+      <td>SIGNALING AN INDICATION OF A SIDELINK TRANSMISSION Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a first user equipment (UE) may transmit, to a second UE, an indication of a transmission on a sidelink resource from the first UE to the second U</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>T1</td>
+      <td>2</td>
+      <td>US 11765696 B2</td>
+      <td>2020</td>
+      <td>Sidelink resource allocation for device-to-device communications</td>
+      <td>0.201</td>
+      <td>Sidelink resource allocation for device-to-device communications Aspects relate to wireless communication devices configured to facilitate power conservation and sidelink communications. According to one example, a wireless communication device can transmit a first sidelink transmission, determine o</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>T1</td>
+      <td>3</td>
+      <td>US 11477764 B2</td>
+      <td>2020</td>
+      <td>Transmitting system information on sidelink</td>
+      <td>0.194</td>
+      <td>Transmitting system information on sidelink Certain aspects of the present disclosure provide techniques for transmitting system information on sidelink. A method that may be performed by a first user equipment (UE) includes receiving first system information from a second UE; determining, based on</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>T2</td>
+      <td>1</td>
+      <td>US 2021/0143882 A1</td>
+      <td>2020</td>
+      <td>CSI REPORT INCLUDING INFORMATION IDENTIFYING CSI-RS</td>
+      <td>0.268</td>
+      <td>CSI REPORT INCLUDING INFORMATION IDENTIFYING CSI-RS A method, a computer-readable medium, and an apparatus for wireless communication at a first user equipment (UE). A channel state information (CSI) report trigger can be received from a second UE, and a channel state information reference signal (C</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>T2</td>
+      <td>2</td>
+      <td>US 2021/0083740 A1</td>
+      <td>2020</td>
+      <td>CSI REPORT SETTING BY THE CSI-TRANSMITTING USER EQUIPMENT</td>
+      <td>0.260</td>
+      <td>CSI REPORT SETTING BY THE CSI-TRANSMITTING USER EQUIPMENT Some aspects provide a method for wireless communication by a first wireless device. The method generally includes transmitting control information regarding at least one of scheduling or configuration of a channel state information (CSI) rep</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>T2</td>
+      <td>3</td>
+      <td>US 2024/0322966 A1</td>
+      <td>2022</td>
+      <td>CHANNEL STATE INFORMATION (CSI) PRIORITY AND MULTIPLEXING FOR APERIODIC CSI REPORTING</td>
+      <td>0.259</td>
+      <td>CHANNEL STATE INFORMATION (CSI) PRIORITY AND MULTIPLEXING FOR APERIODIC CSI REPORTING The present disclosure provides systems, methods and apparatus, including computer programs encoded on computer storage media, for channel state information (CSI) priority and multiplexing for aperiodic CSI reporti</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>T3</td>
+      <td>1</td>
+      <td>US 2025/0193939 A1</td>
+      <td>2024</td>
+      <td>RANDOM ACCESS CHANNEL OCCASION CONFIGURATIONS FOR RANDOM ACCESS PREAMBLE REPETITIONS</td>
+      <td>0.245</td>
+      <td>RANDOM ACCESS CHANNEL OCCASION CONFIGURATIONS FOR RANDOM ACCESS PREAMBLE REPETITIONS A method of wireless communication performed by a user equipment (UE) includes receiving, from a base station (BS), a random access configuration associated with a plurality of random access occasions, wherein at le</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>T3</td>
+      <td>2</td>
+      <td>US 2023/0209606 A1</td>
+      <td>2020</td>
+      <td>RANDOM ACCESS RADIO NETWORK TEMPORARY IDENTIFIER (RA-RNTI) WITH PHYSICAL RANDOM ACCESS CHANNEL (PRACH) REPETITION</td>
+      <td>0.236</td>
+      <td>RANDOM ACCESS RADIO NETWORK TEMPORARY IDENTIFIER (RA-RNTI) WITH PHYSICAL RANDOM ACCESS CHANNEL (PRACH) REPETITION Wireless communication systems and methods related to random access in a wireless communication network are provided. A user equipment (UE) receives a configuration indicating a random a</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>T3</td>
+      <td>3</td>
+      <td>US 11653383 B2</td>
+      <td>2021</td>
+      <td>Techniques for performing random access procedures in sidelink wireless communications</td>
+      <td>0.227</td>
+      <td>Techniques for performing random access procedures in sidelink wireless communications Some aspects described herein relate to configuring user equipment (UE) for performing sidelink (SL) random access (RA) procedures, which may include assistance from a base station or other network component. One</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>T4</td>
+      <td>1</td>
+      <td>US 2023/0143786 A1</td>
+      <td>2021</td>
+      <td>HYBRID AUTOMATIC REPEAT REQUEST FEEDBACK VERIFICATION</td>
+      <td>0.312</td>
+      <td>HYBRID AUTOMATIC REPEAT REQUEST FEEDBACK VERIFICATION Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a user equipment (UE) may transmit hybrid automatic repeat request (HARQ) feedback for a downlink transmission from a base station; receive an</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>T4</td>
+      <td>2</td>
+      <td>US 12003458 B2</td>
+      <td>2020</td>
+      <td>Sidelink feedback transmission and feedback resource determination</td>
+      <td>0.308</td>
+      <td>Sidelink feedback transmission and feedback resource determination Methods, systems, and devices for wireless communications are described. A communication device, which may be otherwise known as user equipment (UE), may receive a data transmission and determine a slot to transmit a hybrid automatic</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>T4</td>
+      <td>3</td>
+      <td>US 12074717 B2</td>
+      <td>2023</td>
+      <td>Hybrid automatic repeat request feedback retransmission</td>
+      <td>0.296</td>
+      <td>Hybrid automatic repeat request feedback retransmission Certain aspects of the present disclosure provide techniques and apparatus for hybrid automatic repeat request (HARQ) feedback retransmission. An example method of wireless communication by a user equipment generally includes receiving signalin</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>T5</td>
+      <td>1</td>
+      <td>US 2023/0118940 A1</td>
+      <td>2021</td>
+      <td>BEAM FAILURE DETECTION PER BEAM FOR MULTI-BEAM COMMUNICATIONS</td>
+      <td>0.290</td>
+      <td>BEAM FAILURE DETECTION PER BEAM FOR MULTI-BEAM COMMUNICATIONS Certain aspects of the present disclosure provide techniques for beam failure detection per beam. A method that may be performed by a user equipment (UE) includes communicating with a network entity via a plurality of beams associated wit</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>T5</td>
+      <td>2</td>
+      <td>US 2024/0113767 A1</td>
+      <td>2023</td>
+      <td>BEAM FAILURE RECOVERY REQUEST FOR PER BEAM GROUP BEAM FAILURE RECOVERY</td>
+      <td>0.284</td>
+      <td>BEAM FAILURE RECOVERY REQUEST FOR PER BEAM GROUP BEAM FAILURE RECOVERY Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a user equipment (UE) may detect beam failure for a first beam group in a cell including the first beam group and a second bea</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>T5</td>
+      <td>3</td>
+      <td>US 12375151 B2</td>
+      <td>2022</td>
+      <td>Beam failure recovery via sidelink</td>
+      <td>0.280</td>
+      <td>Beam failure recovery via sidelink Methods, systems, and devices for wireless communications are described. A first user equipment (UE) may communicate with a network node via a first wireless link using a first beam according to a first beam configuration. In some examples, the first UE may transmi</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>T6</td>
+      <td>1</td>
+      <td>US 11838907 B2</td>
+      <td>2021</td>
+      <td>Simultaneous feedback information and uplink shared channel transmissions</td>
+      <td>0.275</td>
+      <td>Simultaneous feedback information and uplink shared channel transmissions Methods, systems, and devices for wireless communications are described. A UE may receive a piggybacking status for a first uplink carrier of a set of uplink carriers configured for the UE, receive a first uplink grant that in</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>T6</td>
+      <td>2</td>
+      <td>US 2020/0267757 A1</td>
+      <td>2020</td>
+      <td>TWO-STAGE UPLINK GRANT PROCEDURES</td>
+      <td>0.265</td>
+      <td>TWO-STAGE UPLINK GRANT PROCEDURES Methods, systems, and devices for wireless communications are described. Generally, the described techniques provide for encoding uplink data for transmission based on control information included in a first uplink grant corresponding to a first set of uplink resour</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>T6</td>
+      <td>3</td>
+      <td>US 12452860 B2</td>
+      <td>2022</td>
+      <td>Semiautonomous uplink scheduling</td>
+      <td>0.262</td>
+      <td>Semiautonomous uplink scheduling Methods, systems, and devices for wireless communication at a user equipment (UE) are described. A UE may receive control signaling including an indication of time and frequency resources that are configured for semiautonomous uplink scheduling from the UE. The UE ma</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>T7</td>
+      <td>1</td>
+      <td>US 11570706 B2</td>
+      <td>2020</td>
+      <td>Operation modes for L1/L2-centric inter-cell mobility</td>
+      <td>0.279</td>
+      <td>Operation modes for L1/L2-centric inter-cell mobility Aspects relate to Layer 1/Layer 2-centric inter-cell mobility communication systems where measurement information from at least one user equipment (UE) is sent to a base station. Based on this information, the base station may select at least one</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>T7</td>
+      <td>2</td>
+      <td>US 2021/0219194 A1</td>
+      <td>2020</td>
+      <td>TRANSIENT PERIOD OPERATION FOR L1/L2 BASED CELL HANDOVER</td>
+      <td>0.275</td>
+      <td>TRANSIENT PERIOD OPERATION FOR L1/L2 BASED CELL HANDOVER Aspects of the present disclosure provide apparatus, methods, processing systems, and computer readable mediums for enabling L1 (physical layer) and L2 (medium access control (MAC) layer) inter-cell mobility. More specifically, rules and opera</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>T7</td>
+      <td>3</td>
+      <td>US 12192749 B2</td>
+      <td>2021</td>
+      <td>Network triggered handover</td>
+      <td>0.271</td>
+      <td>Network triggered handover Methods, systems, and devices for wireless communications are described. The described techniques may provide for efficiently triggering a handover at a user equipment (UE) from a source cell to a target cell. The UE may receive, at a first time period, a first control mes</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-1dd8663e-63cd-453c-a4ad-fef6d554a562')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-1dd8663e-63cd-453c-a4ad-fef6d554a562 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-1dd8663e-63cd-453c-a4ad-fef6d554a562');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+  <div id="id_17828e96-dc0f-4490-bdfb-59a67a22461b">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('rep_df')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_17828e96-dc0f-4490-bdfb-59a67a22461b button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('rep_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
