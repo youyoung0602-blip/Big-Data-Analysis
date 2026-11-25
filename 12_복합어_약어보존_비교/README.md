@@ -70,14 +70,14 @@ NTN과 정식 명칭은 non_terrestrial_network로 통합했다. PC5는 전처�
 
 - [집계표와 설정](./집계표/)
 - [실행 코드](./코드/run_comparison.py)
-- [기존 Colab 노트북 사본](../12_Colab코드_시각화/code/analysis.ipynb)
+- [기존 Colab 노트북 사본](./코드/analysis.ipynb)
 
 Python에서 numpy, pandas, scipy, scikit-learn, matplotlib을 사용했다. 영어 불용어는 NLTK 공식 데이터의 목록을 코드 폴더에 동봉했다. [불용어 원본](https://github.com/nltk/nltk_data/blob/gh-pages/packages/corpora/stopwords.zip)
 
 저장소 루트에서 실행한다. 입력 폴더에는 사용자 제공 v2_Lens_퀄컴_무선통신_요약전수검토_2015-2024.csv가 필요하다. 출력 폴더는 새 실험용 경로를 지정한다.
 
 ```powershell
-python "13_복합어_약어보존_비교/코드/run_comparison.py" --inputs "<원본 CSV 폴더>" --output "<실험 결과 폴더>"
+python "12_복합어_약어보존_비교/코드/run_comparison.py" --inputs "<원본 CSV 폴더>" --output "<실험 결과 폴더>"
 ```
 
 코드는 수치 집계와 비교 그래프를 재생성한다. 게재된 연도별 선 그래프는 new_yearly_shares.csv의 수치로 작성했다.

@@ -16,7 +16,7 @@ args=parser.parse_args()
 B=args.inputs;O=args.output;O.mkdir(parents=True,exist_ok=True)
 CODE=Path(__file__).resolve().parent
 REPO=CODE.parents[1]
-nb=json.loads((REPO/'12_Colab코드_시각화/code/analysis.ipynb').read_text(encoding='utf-8'))
+nb=json.loads((CODE/'analysis.ipynb').read_text(encoding='utf-8'))
 node=ast.parse(''.join(nb['cells'][3]['source']))
 extra=next(ast.literal_eval(x.value.args[0]) for x in node.body if isinstance(x,ast.Expr) and isinstance(x.value,ast.Call) and isinstance(x.value.func,ast.Attribute) and x.value.func.attr=='update')
 stop=set((CODE/'english_stopwords.txt').read_text(encoding='utf-8').split())|set(extra)
